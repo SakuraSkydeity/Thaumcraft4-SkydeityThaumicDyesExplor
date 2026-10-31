@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+eclipse/
+
+# NeoGradle / runs
+run/
+logs/
+.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 前置源码与快照（不进 git）
+.none/
+deps/
