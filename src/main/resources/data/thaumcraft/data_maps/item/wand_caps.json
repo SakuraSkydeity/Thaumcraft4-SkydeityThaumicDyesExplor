@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": {
+    "thaumicdyesexplor:sojourner_cap": {
+      "material": "thaumicdyesexplor:sojourner",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/cap_sojourner.png",
+      "craft_cost": 6,
+      "order": 100
+    },
+    "thaumicdyesexplor:mechanist_cap": {
+      "material": "thaumicdyesexplor:mechanist",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/cap_mechanist.png",
+      "craft_cost": 6,
+      "order": 101
+    }
+  }
+}

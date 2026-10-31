@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:CAP_SOJOURNER",
+  "central": {
+    "item": "thaumicdyesexplor:sojourner_cap_uncharged"
+  },
+  "components": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:sojourner_cap"
+  },
+  "instability": 3,
+  "aspects": {
+    "iter": 16,
+    "auram": 8
+  }
+}

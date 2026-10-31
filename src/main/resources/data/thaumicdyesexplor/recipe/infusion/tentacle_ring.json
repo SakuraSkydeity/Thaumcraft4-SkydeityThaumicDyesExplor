@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "central": {
+    "item": "thaumcraft:mundane_ring"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:tainted_flesh"
+    },
+    {
+      "item": "thaumcraft:tainted_flesh"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:tentacle_ring"
+  },
+  "instability": 6,
+  "aspects": {
+    "vitium": 32,
+    "telum": 8,
+    "bestia": 8
+  }
+}

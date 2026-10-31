@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "N",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:blank_seal",
+    "count": 1
+  }
+}

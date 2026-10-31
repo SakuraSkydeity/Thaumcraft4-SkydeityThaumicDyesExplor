@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ROD_NECROMANCER",
+  "central": {
+    "item": "thaumcraft:obsidian_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "thaumicdyesexplor:pure_zombie_brain"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:necro_staff_core"
+  },
+  "instability": 6,
+  "aspects": {
+    "mortuus": 32,
+    "perditio": 16,
+    "spiritus": 16,
+    "auram": 8
+  }
+}

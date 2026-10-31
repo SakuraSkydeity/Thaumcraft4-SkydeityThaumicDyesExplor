@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:cultist_plate_helmet"
+    },
+    {
+      "item": "thaumicdyesexplor:fabric_resource"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:cultist_ranger_helmet",
+    "count": 1
+  }
+}

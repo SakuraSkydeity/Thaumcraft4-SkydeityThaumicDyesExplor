@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thaumcraft:iron_wand_cap"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:sojourner_cap_uncharged",
+    "count": 1
+  }
+}

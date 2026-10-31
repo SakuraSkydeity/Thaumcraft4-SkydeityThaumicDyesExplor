@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": {
+    "thaumicdyesexplor:runic_helmet": { "runic": true, "runic_charge": 8 },
+    "thaumicdyesexplor:runic_chestplate": { "runic": true, "runic_charge": 24 },
+    "thaumicdyesexplor:runic_leggings": { "runic": true, "runic_charge": 16 },
+    "thaumicdyesexplor:runic_boots": { "runic": true, "runic_charge": 8 },
+
+    "thaumicdyesexplor:runic_goggles": {
+      "vis_discount": 5,
+      "goggles_overlay": true,
+      "aura_revealing": true,
+      "runic": true,
+      "runic_charge": 8
+    },
+
+    "thaumicdyesexplor:runic_enhanced_helmet": { "runic": true, "runic_charge": 12 },
+    "thaumicdyesexplor:runic_enhanced_chestplate": { "runic": true, "runic_charge": 36 },
+    "thaumicdyesexplor:runic_enhanced_leggings": { "runic": true, "runic_charge": 24 },
+    "thaumicdyesexplor:runic_enhanced_boots": { "runic": true, "runic_charge": 12 },
+
+    "thaumicdyesexplor:runic_primal_helmet": { "runic": true, "runic_charge": 16 },
+    "thaumicdyesexplor:runic_primal_chestplate": { "runic": true, "runic_charge": 48 },
+    "thaumicdyesexplor:runic_primal_leggings": { "runic": true, "runic_charge": 32 },
+    "thaumicdyesexplor:runic_primal_boots": { "runic": true, "runic_charge": 16 },
+
+    "thaumicdyesexplor:ancient_mask": {
+      "vis_discount": 5,
+      "aura_revealing": true,
+      "runic": true,
+      "runic_charge": 8
+    },
+
+    "thaumicdyesexplor:thaumium_boots_traveller": {
+      "vis_discount": 2,
+      "fall_distance_reduction": 0.35
+    },
+    "thaumicdyesexplor:void_boots_traveller": {
+      "vis_discount": 5,
+      "fall_distance_reduction": 0.5
+    },
+    "thaumicdyesexplor:runic_boots_traveller": {
+      "vis_discount": 2,
+      "fall_distance_reduction": 0.25,
+      "runic": true,
+      "runic_charge": 8
+    },
+
+    "thaumicdyesexplor:boots_meteor": {
+      "vis_discount": 2,
+      "fall_distance_reduction": 0.3,
+      "runic": true,
+      "runic_charge": 8
+    },
+    "thaumicdyesexplor:boots_comet": {
+      "vis_discount": 5,
+      "fall_distance_reduction": 0.45,
+      "runic": true,
+      "runic_charge": 8
+    },
+
+    "thaumicdyesexplor:crystal_helmet": { "vis_discount": 2, "runic": true, "runic_charge": 8 },
+    "thaumicdyesexplor:crystal_chestplate": { "vis_discount": 2, "runic": true, "runic_charge": 24 },
+    "thaumicdyesexplor:crystal_leggings": { "vis_discount": 2, "runic": true, "runic_charge": 16 },
+    "thaumicdyesexplor:crystal_boots": { "vis_discount": 2, "runic": true, "runic_charge": 8 },
+
+    "thaumicdyesexplor:discount_ring": { "vis_discount": 3 }
+  }
+}

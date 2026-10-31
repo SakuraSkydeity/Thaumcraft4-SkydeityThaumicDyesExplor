@@ -1,0 +1,49 @@
+{
+  "direct": {
+    "thaumicdyesexplor:cultist_paladin_helmet": { "metallum": 6, "lucrum": 3, "alienis": 2 },
+
+    "thaumicdyesexplor:cultist_ranger_helmet": { "metallum": 3, "pannus": 2, "alienis": 1, "iter": 1 },
+    "thaumicdyesexplor:cultist_ranger_chestplate": { "metallum": 3, "pannus": 2, "alienis": 1, "iter": 1 },
+    "thaumicdyesexplor:cultist_ranger_leggings": { "metallum": 3, "pannus": 2, "alienis": 1, "iter": 1 },
+
+    "thaumicdyesexplor:cultist_archer_helmet": { "metallum": 5, "alienis": 1, "telum": 1 },
+    "thaumicdyesexplor:cultist_archer_chestplate": { "metallum": 5, "alienis": 1, "telum": 1 },
+    "thaumicdyesexplor:cultist_archer_leggings": { "metallum": 5, "alienis": 1, "telum": 1 },
+
+    "thaumicdyesexplor:cultist_robe_helmet": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "praecantatio": 2 },
+    "thaumicdyesexplor:cultist_robe_chestplate": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "praecantatio": 2 },
+    "thaumicdyesexplor:cultist_robe_leggings": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "praecantatio": 2 },
+
+    "thaumicdyesexplor:cultist_knight_helmet": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1 },
+    "thaumicdyesexplor:cultist_knight_chestplate": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1 },
+    "thaumicdyesexplor:cultist_knight_leggings": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1 },
+
+    "thaumicdyesexplor:cultist_leader_helmet": { "metallum": 6, "pannus": 1, "alienis": 2, "sensus": 1 },
+    "thaumicdyesexplor:cultist_leader_chestplate": { "metallum": 6, "pannus": 1, "alienis": 2, "sensus": 1 },
+    "thaumicdyesexplor:cultist_leader_leggings": { "metallum": 6, "pannus": 1, "alienis": 2, "sensus": 1 },
+
+    "thaumicdyesexplor:cultist_ranger_dyed_helmet": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "iter": 1 },
+    "thaumicdyesexplor:cultist_ranger_dyed_chestplate": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "iter": 1 },
+    "thaumicdyesexplor:cultist_ranger_dyed_leggings": { "metallum": 4, "pannus": 3, "alienis": 1, "sensus": 1, "iter": 1 },
+
+    "thaumicdyesexplor:cultist_archer_dyed_helmet": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1, "telum": 1 },
+    "thaumicdyesexplor:cultist_archer_dyed_chestplate": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1, "telum": 1 },
+    "thaumicdyesexplor:cultist_archer_dyed_leggings": { "metallum": 6, "pannus": 1, "alienis": 1, "sensus": 1, "telum": 1 },
+
+    "thaumicdyesexplor:inhabited_plate_helmet": { "metallum": 5, "exanimis": 1, "alienis": 4, "perditio": 2 },
+    "thaumicdyesexplor:inhabited_plate_chestplate": { "metallum": 5, "exanimis": 1, "alienis": 4, "perditio": 2 },
+    "thaumicdyesexplor:inhabited_plate_leggings": { "metallum": 5, "exanimis": 1, "alienis": 4, "perditio": 2 },
+
+    "thaumicdyesexplor:runic_helmet": { "tutamen": 4, "potentia": 12, "praecantatio": 8, "lucrum": 5, "vacuos": 4 },
+    "thaumicdyesexplor:runic_chestplate": { "tutamen": 12, "potentia": 36, "praecantatio": 24, "lucrum": 5, "vacuos": 4 },
+    "thaumicdyesexplor:runic_leggings": { "tutamen": 8, "potentia": 24, "praecantatio": 16, "lucrum": 5, "vacuos": 4 },
+    "thaumicdyesexplor:runic_boots": { "tutamen": 4, "potentia": 12, "praecantatio": 8, "lucrum": 5, "vacuos": 4 },
+
+    "thaumicdyesexplor:runic_enhanced_helmet": { "tutamen": 4, "potentia": 12, "praecantatio": 8, "lucrum": 10, "vacuos": 4, "ordo": 6 },
+    "thaumicdyesexplor:runic_enhanced_chestplate": { "tutamen": 12, "potentia": 36, "praecantatio": 24, "lucrum": 10, "vacuos": 4, "ordo": 6 },
+    "thaumicdyesexplor:runic_enhanced_leggings": { "tutamen": 8, "potentia": 24, "praecantatio": 16, "lucrum": 10, "vacuos": 4, "ordo": 6 },
+    "thaumicdyesexplor:runic_enhanced_boots": { "tutamen": 4, "potentia": 12, "praecantatio": 8, "lucrum": 10, "vacuos": 4, "ordo": 6 },
+
+    "thaumicdyesexplor:fabric_resource": { "pannus": 4, "alienis": 1, "praecantatio": 2 }
+  }
+}

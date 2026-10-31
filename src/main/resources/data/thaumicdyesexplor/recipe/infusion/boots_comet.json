@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TRAVELLERBOOTS",
+  "central": {
+    "item": "thaumicdyesexplor:boots_meteor"
+  },
+  "components": [
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:boots_comet"
+  },
+  "instability": 5,
+  "aspects": {
+    "gelum": 32,
+    "aqua": 16,
+    "motus": 8
+  }
+}

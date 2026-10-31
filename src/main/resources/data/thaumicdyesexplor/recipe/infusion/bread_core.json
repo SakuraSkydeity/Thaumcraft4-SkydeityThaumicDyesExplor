@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ROD_BREAD",
+  "central": {
+    "item": "thaumcraft:greatwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:bread_core"
+  },
+  "instability": 3,
+  "aspects": {
+    "praecantatio": 8,
+    "messis": 8,
+    "fames": 4
+  }
+}

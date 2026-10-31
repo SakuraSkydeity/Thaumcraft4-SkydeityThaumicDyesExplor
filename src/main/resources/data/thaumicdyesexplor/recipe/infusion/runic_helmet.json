@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICARMOR",
+  "central": {
+    "item": "minecraft:golden_helmet"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:inkwell"
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_helmet"
+  },
+  "instability": 4,
+  "aspects": {
+    "tutamen": 30,
+    "praecantatio": 75,
+    "potentia": 75
+  }
+}

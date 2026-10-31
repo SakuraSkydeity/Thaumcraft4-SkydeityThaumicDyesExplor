@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "central": {
+    "item": "thaumcraft:mundane_amulet"
+  },
+  "components": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:talisman_food"
+  },
+  "instability": 4,
+  "aspects": {
+    "fames": 16,
+    "victus": 8,
+    "sano": 8
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICARMOR",
+  "central": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:inkwell"
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget"
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget"
+    },
+    {
+      "item": "thaumcraft:thaumium_nugget"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_chestplate"
+  },
+  "instability": 4,
+  "aspects": {
+    "tutamen": 60,
+    "praecantatio": 105,
+    "potentia": 105
+  }
+}

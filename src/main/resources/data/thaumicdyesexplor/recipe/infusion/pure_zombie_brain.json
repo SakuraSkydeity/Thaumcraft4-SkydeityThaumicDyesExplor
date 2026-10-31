@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:BRAINCURE",
+  "central": {
+    "item": "thaumcraft:zombie_brain"
+  },
+  "components": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:pure_zombie_brain"
+  },
+  "instability": 3,
+  "aspects": {
+    "humanus": 4,
+    "cognitio": 6,
+    "sano": 2
+  }
+}

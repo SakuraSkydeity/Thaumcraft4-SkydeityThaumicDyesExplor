@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": {
+    "thaumicdyesexplor:transmutation_core": {
+      "material": "thaumicdyesexplor:transmutation",
+      "capacity": 75,
+      "craft_cost": 6,
+      "texture": "thaumicdyesexplor:textures/models/rod_transmutation.png",
+      "order": 100
+    },
+    "thaumicdyesexplor:transmutation_staff_core": {
+      "material": "thaumicdyesexplor:transmutation_staff",
+      "capacity": 175,
+      "craft_cost": 14,
+      "texture": "thaumicdyesexplor:textures/models/rod_transmutation.png",
+      "order": 101
+    },
+    "thaumicdyesexplor:amber_core": {
+      "material": "thaumicdyesexplor:amber",
+      "capacity": 10,
+      "craft_cost": 8,
+      "texture": "thaumicdyesexplor:textures/models/rod_amber.png",
+      "order": 102
+    },
+    "thaumicdyesexplor:amber_staff_core": {
+      "material": "thaumicdyesexplor:amber_staff",
+      "capacity": 25,
+      "craft_cost": 18,
+      "texture": "thaumicdyesexplor:textures/models/rod_amber.png",
+      "order": 103
+    },
+    "thaumicdyesexplor:bread_core": {
+      "material": "thaumicdyesexplor:bread",
+      "capacity": 39,
+      "craft_cost": 8,
+      "texture": "thaumicdyesexplor:textures/models/rod_bread.png",
+      "order": 104
+    },
+    "thaumicdyesexplor:necro_staff_core": {
+      "material": "thaumicdyesexplor:necro_staff",
+      "capacity": 200,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/rod_necro.png",
+      "runes": true,
+      "order": 105
+    }
+  }
+}

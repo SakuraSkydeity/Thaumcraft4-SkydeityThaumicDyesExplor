@@ -1,0 +1,970 @@
+{
+  "categories": [
+    {
+      "key": "thaumicdyesexplor:TDE",
+      "icon": "thaumicdyesexplor:textures/misc/r_dyepath.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "sort_order": 6
+    }
+  ],
+  "entries": [
+    {
+      "key": "thaumicdyesexplor:ROOT",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 0,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:runic_goggles"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK",
+        "ROUND"
+      ],
+      "parents": [],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ROOT.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:DYEING",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 0,
+      "display_row": -2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:cultist_robe_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.DYEING.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.DYEING.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ARMORSETS",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 6,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:fortress_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:CRYSTALARMOR"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ARMORSETS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ARMORSETS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ARMORMADE",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 6,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:cultist_robe_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ARMORSETS"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ARMORMADE.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ARMORMADE.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/cultist_robe_chestplate"
+          ]
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/iron_fortress_helmet"
+          ]
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/ancient_mask"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RUNICARMOR",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": -2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:runic_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICARMOR.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICARMOR.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_helmet",
+            "thaumicdyesexplor:infusion/runic_chestplate",
+            "thaumicdyesexplor:infusion/runic_leggings",
+            "thaumicdyesexplor:infusion/runic_boots"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RUNICGOGGLES",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 4,
+      "display_row": -2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:runic_goggles"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RUNICARMOR"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICGOGGLES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_goggles"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:TRAVELLERBOOTS",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 6,
+      "display_row": -2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:thaumium_boots_traveller"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RUNICGOGGLES"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.TRAVELLERBOOTS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.TRAVELLERBOOTS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/thaumium_boots_traveller",
+            "thaumicdyesexplor:infusion/void_boots_traveller"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/boots_meteor"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/boots_comet"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RUNICUPGRADE",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": -4,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:runic_primal_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RUNICARMOR"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICUPGRADE.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICUPGRADE.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_enhanced_helmet",
+            "thaumicdyesexplor:infusion/runic_enhanced_chestplate",
+            "thaumicdyesexplor:infusion/runic_enhanced_leggings",
+            "thaumicdyesexplor:infusion/runic_enhanced_boots",
+            "thaumicdyesexplor:infusion/runic_primal_helmet",
+            "thaumicdyesexplor:infusion/runic_primal_chestplate",
+            "thaumicdyesexplor:infusion/runic_primal_leggings",
+            "thaumicdyesexplor:infusion/runic_primal_boots"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RUNICBOOTSTRAVELER",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 4,
+      "display_row": -4,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:runic_boots_traveller"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RUNICUPGRADE"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICBOOTSTRAVELER.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_boots_traveller"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:CRYSTALARMOR",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 4,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:crystal_chestplate"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ACCESSORIES"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.CRYSTALARMOR.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/crystal_helmet",
+            "thaumicdyesexplor:infusion/crystal_chestplate",
+            "thaumicdyesexplor:infusion/crystal_leggings",
+            "thaumicdyesexplor:infusion/crystal_boots"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ACCESSORIES",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:discount_ring"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ACCESSORIES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ACCESSORIES.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/discount_ring",
+            "thaumicdyesexplor:infusion/stabilizer_belt",
+            "thaumicdyesexplor:infusion/talisman_food",
+            "thaumicdyesexplor:infusion/tentacle_ring",
+            "thaumicdyesexplor:infusion/charm_no_taint",
+            "thaumicdyesexplor:infusion/charm_taint"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:SEALS",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 0,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:blank_seal"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.SEALS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/blank_seal"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:CAP_SOJOURNER",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -2,
+      "display_row": -2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:sojourner_cap"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.CAP_SOJOURNER.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/sojourner_cap"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:CAP_MECHANIST",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -2,
+      "display_row": -4,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:mechanist_cap"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:CAP_SOJOURNER"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.CAP_MECHANIST.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/mechanist_cap"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ROD_TRANSMUTATION",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -2,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:transmutation_core"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ROD_TRANSMUTATION.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/transmutation_core"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ROD_AMBER",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -2,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:amber_core"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROD_TRANSMUTATION"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ROD_AMBER.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/amber_core"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ROD_BREAD",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -2,
+      "display_row": 4,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:bread_core"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROD_AMBER"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ROD_BREAD.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/bread_core"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ROD_NECROMANCER",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -4,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:necro_staff_core"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROD_TRANSMUTATION"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ROD_NECROMANCER.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/necro_staff_core"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:BRAINCURE",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": -4,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:pure_zombie_brain"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROD_NECROMANCER"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.BRAINCURE.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/pure_zombie_brain"
+          ]
+        }
+      ]
+    }
+  ]
+}

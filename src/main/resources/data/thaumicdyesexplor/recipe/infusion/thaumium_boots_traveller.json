@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TRAVELLERBOOTS",
+  "central": {
+    "item": "minecraft:leather_boots"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:thaumium_boots_traveller"
+  },
+  "instability": 2,
+  "aspects": {
+    "iter": 25,
+    "praecantatio": 12
+  }
+}

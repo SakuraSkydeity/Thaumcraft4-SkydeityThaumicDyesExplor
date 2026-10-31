@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:CAP_MECHANIST",
+  "central": {
+    "item": "thaumicdyesexplor:mechanist_cap_uncharged"
+  },
+  "components": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:mechanist_cap"
+  },
+  "instability": 3,
+  "aspects": {
+    "machina": 16,
+    "potentia": 8
+  }
+}

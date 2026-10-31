@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "item": "thaumicdyesexplor:runic_chestplate"
+  },
+  "components": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:amber"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_enhanced_chestplate"
+  },
+  "instability": 8,
+  "aspects": {
+    "tutamen": 80,
+    "praecantatio": 160,
+    "potentia": 80,
+    "alienis": 20,
+    "pannus": 24,
+    "vitreus": 16,
+    "permutatio": 20
+  }
+}

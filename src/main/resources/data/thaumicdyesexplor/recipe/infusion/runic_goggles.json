@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICGOGGLES",
+  "central": {
+    "item": "thaumcraft:goggles_of_revealing"
+  },
+  "components": [
+    {
+      "item": "thaumicdyesexplor:runic_helmet"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_goggles"
+  },
+  "instability": 4,
+  "aspects": {
+    "praecantatio": 25,
+    "permutatio": 25
+  }
+}

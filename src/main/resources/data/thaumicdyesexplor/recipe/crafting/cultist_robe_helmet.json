@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:cultist_robe_helmet"
+    },
+    {
+      "item": "thaumicdyesexplor:fabric_resource"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:cultist_robe_helmet",
+    "count": 1
+  }
+}

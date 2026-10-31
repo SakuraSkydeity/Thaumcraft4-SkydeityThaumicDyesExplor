@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ROD_AMBER",
+  "central": {
+    "item": "thaumcraft:greatwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:amber_core"
+  },
+  "instability": 5,
+  "aspects": {
+    "praecantatio": 14,
+    "auram": 4,
+    "vinculum": 6
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ROD_TRANSMUTATION",
+  "central": {
+    "item": "thaumcraft:greatwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "thaumcraft:water_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:transmutation_core"
+  },
+  "instability": 6,
+  "aspects": {
+    "praecantatio": 32,
+    "permutatio": 16,
+    "auram": 4
+  }
+}

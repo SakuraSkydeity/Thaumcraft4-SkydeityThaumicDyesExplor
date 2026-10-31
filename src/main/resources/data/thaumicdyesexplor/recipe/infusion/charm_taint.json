@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "central": {
+    "item": "thaumcraft:mundane_amulet"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:tainted_flesh"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:charm_taint"
+  },
+  "instability": 5,
+  "aspects": {
+    "vitium": 24,
+    "alienis": 8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "central": {
+    "item": "thaumcraft:mundane_belt"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:stabilizer_belt"
+  },
+  "instability": 5,
+  "aspects": {
+    "ordo": 24,
+    "tutamen": 8
+  }
+}

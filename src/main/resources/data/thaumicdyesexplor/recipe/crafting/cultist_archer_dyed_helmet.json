@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:cultist_archer_helmet"
+    },
+    {
+      "tag": "c:dyes"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:cultist_archer_dyed_helmet",
+    "count": 1
+  }
+}

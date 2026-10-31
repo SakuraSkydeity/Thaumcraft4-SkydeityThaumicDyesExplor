@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "central": {
+    "item": "thaumcraft:mundane_ring"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:discount_ring"
+  },
+  "instability": 4,
+  "aspects": {
+    "praecantatio": 16,
+    "permutatio": 8
+  }
+}

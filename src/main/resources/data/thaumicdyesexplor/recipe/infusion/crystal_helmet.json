@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:CRYSTALARMOR",
+  "central": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:crystal_helmet"
+  },
+  "instability": 4,
+  "aspects": {
+    "vitreus": 20,
+    "tutamen": 30,
+    "praecantatio": 30
+  }
+}

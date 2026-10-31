@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumcraft:fortress_chestplate"
+    },
+    {
+      "item": "thaumicdyesexplor:fabric_resource"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:fortress_chestplate",
+    "count": 1
+  }
+}

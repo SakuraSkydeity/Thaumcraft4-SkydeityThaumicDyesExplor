@@ -1,0 +1,32 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "item": "thaumcraft:primordial_pearl"
+  },
+  "components": [
+    {
+      "item": "thaumicdyesexplor:runic_enhanced_chestplate"
+    },
+    {
+      "item": "thaumcraft:void_ingot"
+    },
+    {
+      "item": "thaumicdyesexplor:void_robe_helmet"
+    },
+    {
+      "item": "thaumcraft:void_ingot"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_primal_chestplate"
+  },
+  "instability": 10,
+  "aspects": {
+    "praecantatio": 240,
+    "alienis": 120,
+    "tenebrae": 60,
+    "spiritus": 60,
+    "permutatio": 40
+  }
+}

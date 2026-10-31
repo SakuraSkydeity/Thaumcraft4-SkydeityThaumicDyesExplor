@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICBOOTSTRAVELLER",
+  "central": {
+    "item": "thaumcraft:boots_of_the_traveller"
+  },
+  "components": [
+    {
+      "item": "thaumicdyesexplor:runic_boots"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:runic_boots_traveller"
+  },
+  "instability": 4,
+  "aspects": {
+    "praecantatio": 25,
+    "permutatio": 25
+  }
+}

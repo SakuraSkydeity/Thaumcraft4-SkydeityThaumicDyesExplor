@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:CRYSTALARMOR",
+  "central": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:crystal_chestplate"
+  },
+  "instability": 4,
+  "aspects": {
+    "vitreus": 30,
+    "tutamen": 60,
+    "praecantatio": 40
+  }
+}

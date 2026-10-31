@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TRAVELLERBOOTS",
+  "central": {
+    "item": "thaumicdyesexplor:thaumium_boots_traveller"
+  },
+  "components": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:boots_meteor"
+  },
+  "instability": 5,
+  "aspects": {
+    "ignis": 32,
+    "motus": 16,
+    "aer": 8
+  }
+}

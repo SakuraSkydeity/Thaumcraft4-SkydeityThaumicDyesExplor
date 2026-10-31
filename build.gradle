@@ -1,0 +1,81 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'net.neoforged.moddev' version '1.0.17'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = 'SkydeityThaumicDyesExplor'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+        configureEach {
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+// 源码为 UTF-8（含中文注释/字符串字面量），显式钉死编码避免 Windows GBK 报错
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    // 前置 thaumcraft 的公开 API，仅编译期引用，永不打包。
+    // 只依赖 API jar，绝不引用完整运行时/source jar（访问实现类是危险且不必要的）。
+    compileOnly files(parent_api)
+
+    // Curios（饰品栏）。deps/ 下自带 jar：编译期用公开 API，运行期由玩家整合包提供。
+    // 所有引用都包在 CuriosCompat.isLoaded() 判断里，缺 Curios 时模组仍可启动。
+    compileOnly files('deps/curios-neoforge-9.5.1+1.21.1.jar')
+    runtimeOnly files('deps/curios-neoforge-9.5.1+1.21.1.jar')
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    filteringCharset = 'UTF-8'
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties + [project: project]
+    }
+}
