@@ -25,4 +25,3 @@ Thumbs.db
 
 # 前置源码与快照（不进 git）
 .none/
-deps/

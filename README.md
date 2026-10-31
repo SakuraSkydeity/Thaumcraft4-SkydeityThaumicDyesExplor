@@ -14,17 +14,6 @@
 | 依赖 | 说明 |
 | --- | --- |
 | Thaumcraft 4R | `thaumcraft`（`[4.2.3.5,)`），必选前置 |
-| 前置 API jar | `.none/1.21.1-neoforge-20753-dev-revealing-abilities-snapshot/` |
-
-> 前置源码与快照在 `.none/` 目录（已 gitignore，不进版本库）。
-
-## 构建
-
-```bash
-gradlew.bat build
-```
-
-需要 JDK 21（foojay resolver 会自动下载）。
 
 ## 迁移内容
 
