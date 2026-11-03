@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_storage_durnaur_orc"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_durnaur_orc",
+    "count": 9
+  }
+}

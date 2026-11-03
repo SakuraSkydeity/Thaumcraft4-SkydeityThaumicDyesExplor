@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "thaumicdyesexplor:item/cultist_ranger_legs"
+    "layer0": "thaumicdyesexplor:item/cultist_ranger_legs2"
   }
 }

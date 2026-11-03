@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "thaumcraft:void_fortress_leggings"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:void_robe_leggings"
+  },
+  "instability": 2,
+  "aspects": {
+    "pannus": 8,
+    "vitium": 4,
+    "permutatio": 8
+  }
+}

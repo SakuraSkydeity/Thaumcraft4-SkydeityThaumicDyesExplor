@@ -1,15 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:golden_helmet"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "ignis": 20,
+    "aer": 20
+  },
+  "pattern": [
+    " g ",
+    " H ",
+    " g "
   ],
+  "key": {
+    "g": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "H": {
+      "item": "thaumicdyesexplor:cultist_knight_helmet"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:sun_knight_helmet",
-    "count": 1
+    "id": "thaumicdyesexplor:sun_knight_helmet"
   }
 }

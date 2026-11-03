@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:dunedain",
+  "color": "#2b4f2c",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:volatus"
+  ],
+  "natural_generation_weight": 1
+}

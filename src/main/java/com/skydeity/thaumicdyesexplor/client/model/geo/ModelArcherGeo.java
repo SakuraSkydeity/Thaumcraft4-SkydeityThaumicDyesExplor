@@ -26,7 +26,7 @@ public final class ModelArcherGeo {
         b.cube("BackpanelL1", "left_leg", 104, 9, 2F, 2.5F, -2.5F, 1F, 6F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
         b.cube("Helmet1", "head", 2, 1, -5.5F, -6F, -5.5F, 11F, 1F, 11F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
         b.cube("Mbelt", "body", 16, 55, -4F, 7F, -3F, 8F, 5F, 1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
-        b.cube("MbeltB", "body", 16, 55, -4F, 7F, -4F, 8F, 5F, 1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
+        b.cube("MbeltB", "body", 16, 55, -4F, 7F, -4F, 8F, 5F, 1F, 0F, 0F, 3.1416F, 0F, 0F, 0F, 0F, false);
         b.cube("ShoulderR", "right_arm", 16, 45, -3.5F, -2.5F, -2.5F, 5F, 5F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
         b.cube("GauntletstrapR1", "right_arm", 84, 58, -1.5F, 3.5F, -2.5F, 3F, 1F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
         b.cube("GauntletL", "left_arm", 114, 53, 1.5F, 3.5F, -2.5F, 2F, 6F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
@@ -66,18 +66,16 @@ public final class ModelArcherGeo {
         b.cube("MbeltL", "body", 16, 36, 4F, 8F, -3F, 1F, 3F, 6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
         b.cube("LegpanelL4", "body", 76, 38, 1F, 0.5F, -3.5F, 2F, 3F, 1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, true);
         b.cube("GauntletR", "right_arm", 100, 53, -3.5F, 3.5F, -2.5F, 2F, 6F, 5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, false);
-        b.cube("FrontclothR1", "body", 108, 38, 0F, 0F, 0F, 3F, 8F, 1F, 0F, 0F, 0F, 0F, -3F, 11F, -2.9F, false);
-        b.cube("FrontclothR2", "body", 108, 47, 0F, 7.5F, 1.7F, 3F, 3F, 1F, 0F, 0F, 0F, 0F, -3F, 11F, -2.9F, false);
-        b.cube("FrontclothL1", "body", 108, 38, 0F, 0F, 0F, 3F, 8F, 1F, 0F, 0F, 0F, 0F, 0F, 11F, -2.9F, true);
-        b.cube("FrontclothL2", "body", 108, 47, 0F, 7.5F, 1.7F, 3F, 3F, 1F, 0F, 0F, 0F, 0F, 0F, 11F, -2.9F, true);
-        b.cube("ClothBackR1", "body", 118, 16, 0F, 0F, 0F, 4F, 8F, 1F, 0F, 0F, 0F, 0F, -4F, 11.5F, 2.9F, true);
-        b.cube("ClothBackR2", "body", 123, 9, 0F, 7.8F, -0.9F, 1F, 2F, 1F, 0F, 0F, 0F, 0F, -4F, 11.5F, 2.9F, false);
-        b.cube("ClothBackR3", "body", 120, 12, 1F, 7.8F, -0.9F, 3F, 3F, 1F, 0F, 0F, 0F, 0F, -4F, 11.5F, 2.9F, true);
-        b.cube("ClothBackL1", "body", 118, 16, 0F, 0F, 0F, 4F, 8F, 1F, 0F, 0F, 0F, 0F, 0F, 11.5F, 2.9F, false);
-        b.cube("ClothBackL2", "body", 123, 9, 3F, 7.8F, -0.9F, 1F, 2F, 1F, 0F, 0F, 0F, 0F, 0F, 11.5F, 2.9F, true);
-        b.cube("ClothBackL3", "body", 120, 12, 0F, 7.8F, -0.9F, 3F, 3F, 1F, 0F, 0F, 0F, 0F, 0F, 11.5F, 2.9F, false);
-        b.empty("bipedRightArm", "body", -1.5708F, 0F, 0F);
-        b.empty("bipedLeftArm", "body", -1.5708F, 0F, 0F);
+        b.cube("FrontclothR1", "body", 108, 38, 0F, 0F, 0F, 3F, 8F, 1F, 0F, -0.1047F, 0F, 0F, -3F, 11F, -2.9F, false);
+        b.cube("FrontclothR2", "body", 108, 47, 0F, 7.5F, 1.7F, 3F, 3F, 1F, 0F, -0.3316F, 0F, 0F, -3F, 11F, -2.9F, false);
+        b.cube("FrontclothL1", "body", 108, 38, 0F, 0F, 0F, 3F, 8F, 1F, 0F, -0.1047F, 0F, 0F, 0F, 11F, -2.9F, true);
+        b.cube("FrontclothL2", "body", 108, 47, 0F, 7.5F, 1.7F, 3F, 3F, 1F, 0F, -0.3316F, 0F, 0F, 0F, 11F, -2.9F, true);
+        b.cube("ClothBackR1", "body", 118, 16, 0F, 0F, 0F, 4F, 8F, 1F, 0F, 0.1047F, 0F, 0F, -4F, 11.5F, 2.9F, true);
+        b.cube("ClothBackR2", "body", 123, 9, 0F, 7.8F, -0.9F, 1F, 2F, 1F, 0F, 0.2269F, 0F, 0F, -4F, 11.5F, 2.9F, false);
+        b.cube("ClothBackR3", "body", 120, 12, 1F, 7.8F, -0.9F, 3F, 3F, 1F, 0F, 0.2269F, 0F, 0F, -4F, 11.5F, 2.9F, true);
+        b.cube("ClothBackL1", "body", 118, 16, 0F, 0F, 0F, 4F, 8F, 1F, 0F, 0.1047F, 0F, 0F, 0F, 11.5F, 2.9F, false);
+        b.cube("ClothBackL2", "body", 123, 9, 3F, 7.8F, -0.9F, 1F, 2F, 1F, 0F, 0.2269F, 0F, 0F, 0F, 11.5F, 2.9F, true);
+        b.cube("ClothBackL3", "body", 120, 12, 0F, 7.8F, -0.9F, 3F, 3F, 1F, 0F, 0.2269F, 0F, 0F, 0F, 11.5F, 2.9F, false);
         return b.build();
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_nugget_edhelmir_elven"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_cap_elvensteel",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:bree",
+  "color": "#2b681c",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumicdyesexplor:perian"
+  ],
+  "natural_generation_weight": 1
+}

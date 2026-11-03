@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:lindon",
+  "color": "#adf4f4",
+  "components": [
+    "thaumicdyesexplor:edhel",
+    "thaumcraft:aqua"
+  ],
+  "natural_generation_weight": 1
+}

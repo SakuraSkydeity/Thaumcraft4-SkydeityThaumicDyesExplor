@@ -6,21 +6,20 @@
   },
   "components": [
     {
-      "item": "minecraft:feather"
-    },
-    {
       "item": "thaumcraft:salis_mundus"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "item": "thaumcraft:salis_mundus"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:sojourner_cap"
   },
-  "instability": 3,
+  "instability": 5,
   "aspects": {
-    "iter": 16,
-    "auram": 8
+    "auram": 6,
+    "praecantatio": 12,
+    "permutatio": 16,
+    "potentia": 12
   }
 }

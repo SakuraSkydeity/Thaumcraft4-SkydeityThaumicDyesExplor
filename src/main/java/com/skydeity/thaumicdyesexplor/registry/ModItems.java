@@ -6,6 +6,7 @@ import com.skydeity.thaumicdyesexplor.curio.StabilizerBeltHandler;
 import com.skydeity.thaumicdyesexplor.curio.TalismanFoodHandler;
 import com.skydeity.thaumicdyesexplor.item.ArmorGeoType;
 import com.skydeity.thaumicdyesexplor.item.RunicArmorItem;
+import com.skydeity.thaumicdyesexplor.item.RunicTravellerBootsItem;
 import com.skydeity.thaumicdyesexplor.item.SimpleArmorItem;
 import com.skydeity.thaumicdyesexplor.item.TravellerBootsItem;
 import com.skydeity.thaumicdyesexplor.item.WandPartItem;
@@ -218,7 +219,7 @@ public final class ModItems {
     // Thaumic Dyes —— 古代面具（TX Ancient Mask）：头盔，非符文、不参与升级
     // ============================================================================================
     public static final DeferredItem<SimpleArmorItem> ANCIENT_MASK = armor("ancient_mask",
-            ModArmorMaterials.ANCIENT_MASK, ArmorItem.Type.HELMET, Rarity.EPIC, ArmorGeoType.NONE);
+            ModArmorMaterials.ANCIENT_MASK, ArmorItem.Type.HELMET, Rarity.EPIC, ArmorGeoType.NONE, 5);
 
     // ============================================================================================
     // Thaumic Dyes —— 旅者靴（符文旅者靴带一个升级槽）
@@ -227,8 +228,14 @@ public final class ModItems {
             ModArmorMaterials.BOOTS_THAUMIUM_TRAVELLER, Rarity.RARE, ArmorGeoType.NONE, TravellerBootsItem.Kind.THAUMIUM);
     public static final DeferredItem<TravellerBootsItem> VOID_BOOTS_TRAVELLER = boots("void_boots_traveller",
             ModArmorMaterials.BOOTS_VOID_TRAVELLER, Rarity.EPIC, ArmorGeoType.NONE, TravellerBootsItem.Kind.VOID);
-    public static final DeferredItem<TravellerBootsItem> RUNIC_BOOTS_TRAVELLER = boots("runic_boots_traveller",
-            ModArmorMaterials.BOOTS_RUNIC_TRAVELLER, Rarity.RARE, ArmorGeoType.NONE, TravellerBootsItem.Kind.RUNIC_TRAVELLER);
+    /**
+     * 符文旅者靴：源模组 {@code ItemRunicBootsTraveller} 继承符文甲，因此额外带
+     * 1 个升级槽与符文充能（见 {@link RunicTravellerBootsItem}）。
+     */
+    public static final DeferredItem<RunicTravellerBootsItem> RUNIC_BOOTS_TRAVELLER =
+            ITEMS.registerItem("runic_boots_traveller",
+                    props -> new RunicTravellerBootsItem(ModArmorMaterials.BOOTS_RUNIC_TRAVELLER, props, ArmorGeoType.NONE),
+                    new Item.Properties().rarity(Rarity.RARE).stacksTo(1));
 
     // ============================================================================================
     // Thaumic Exploration —— 流星靴 / 彗星靴
@@ -241,14 +248,15 @@ public final class ModItems {
     // ============================================================================================
     // Thaumic Exploration —— 水晶护甲（Crystal Armor）：原版人形模型 + 64×32 贴图
     // ============================================================================================
+    // 魔力减免：源模组 ItemCrystalArmor#getVisDiscount = 头盔/胸甲/护腿 2%、靴子 1%（整套 7%）
     public static final DeferredItem<SimpleArmorItem> CRYSTAL_HELMET = armor("crystal_helmet",
-            ModArmorMaterials.CRYSTAL, ArmorItem.Type.HELMET, Rarity.RARE, ArmorGeoType.NONE);
+            ModArmorMaterials.CRYSTAL, ArmorItem.Type.HELMET, Rarity.RARE, ArmorGeoType.NONE, 2);
     public static final DeferredItem<SimpleArmorItem> CRYSTAL_CHESTPLATE = armor("crystal_chestplate",
-            ModArmorMaterials.CRYSTAL, ArmorItem.Type.CHESTPLATE, Rarity.RARE, ArmorGeoType.NONE);
+            ModArmorMaterials.CRYSTAL, ArmorItem.Type.CHESTPLATE, Rarity.RARE, ArmorGeoType.NONE, 2);
     public static final DeferredItem<SimpleArmorItem> CRYSTAL_LEGGINGS = armor("crystal_leggings",
-            ModArmorMaterials.CRYSTAL, ArmorItem.Type.LEGGINGS, Rarity.RARE, ArmorGeoType.NONE);
+            ModArmorMaterials.CRYSTAL, ArmorItem.Type.LEGGINGS, Rarity.RARE, ArmorGeoType.NONE, 2);
     public static final DeferredItem<SimpleArmorItem> CRYSTAL_BOOTS = armor("crystal_boots",
-            ModArmorMaterials.CRYSTAL, ArmorItem.Type.BOOTS, Rarity.RARE, ArmorGeoType.NONE);
+            ModArmorMaterials.CRYSTAL, ArmorItem.Type.BOOTS, Rarity.RARE, ArmorGeoType.NONE, 1);
 
     // ============================================================================================
     // Thaumic Exploration —— 饰品 / 材料 / 工具（护符、腰带、戒指、封印、杖芯等）
@@ -333,8 +341,21 @@ public final class ModItems {
     // ============================================================================================
     private static DeferredItem<SimpleArmorItem> armor(String id, Holder<ArmorMaterial> material,
                                                        ArmorItem.Type type, Rarity rarity, ArmorGeoType geo) {
+        return armor(id, material, type, rarity, geo, 0);
+    }
+
+    /**
+     * 带魔力减免的护甲。
+     *
+     * <p>{@code visDiscount} 只影响 tooltip 上的「魔力减免」一行，真正生效的数值在
+     * {@code data/thaumcraft/data_maps/item/equipment_abilities.json} 的 {@code vis_discount}，
+     * 两处必须一致。</p>
+     */
+    private static DeferredItem<SimpleArmorItem> armor(String id, Holder<ArmorMaterial> material,
+                                                       ArmorItem.Type type, Rarity rarity, ArmorGeoType geo,
+                                                       int visDiscount) {
         return ITEMS.registerItem(id,
-                props -> new SimpleArmorItem(material, type, props, geo),
+                props -> new SimpleArmorItem(material, type, props, geo, visDiscount),
                 new Item.Properties().rarity(rarity).stacksTo(1));
     }
 

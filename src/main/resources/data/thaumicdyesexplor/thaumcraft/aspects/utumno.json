@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:utumno",
+  "color": "#2d0404",
+  "components": [
+    "thaumicdyesexplor:valaraukar",
+    "thaumcraft:alienis"
+  ],
+  "natural_generation_weight": 1
+}

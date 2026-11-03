@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:onodrim",
+  "color": "#17661c",
+  "components": [
+    "thaumcraft:arbor",
+    "thaumcraft:motus"
+  ],
+  "natural_generation_weight": 1
+}

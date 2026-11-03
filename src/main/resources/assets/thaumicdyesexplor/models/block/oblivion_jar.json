@@ -1,0 +1,9 @@
+{
+  "parent": "thaumicdyesexplor:block/tx_jar",
+  "textures": {
+    "particle": "thaumicdyesexplor:block/jar_side_oblivion",
+    "side": "thaumicdyesexplor:block/jar_side_oblivion",
+    "top": "thaumicdyesexplor:block/jar_top_oblivion",
+    "bottom": "thaumicdyesexplor:block/jar_bottom_oblivion"
+  }
+}

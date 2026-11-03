@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "vis": {
+    "aer": 8,
+    "ignis": 8,
+    "aqua": 8,
+    "terra": 8,
+    "ordo": 8,
+    "perditio": 8
+  },
+  "pattern": [
+    " F ",
+    "F F",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "thaumcraft:balanced_shard"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:discount_ring"
+  }
+}

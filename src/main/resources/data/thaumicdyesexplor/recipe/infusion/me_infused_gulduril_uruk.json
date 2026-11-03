@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:iron_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_gulduril_uruk"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:mornogol": 16,
+    "thaumicdyesexplor:isengard": 16,
+    "praecantatio": 8
+  }
+}

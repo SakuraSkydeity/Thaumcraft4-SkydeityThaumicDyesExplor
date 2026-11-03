@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_TOMES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "item": "minecraft:red_dye"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_crimson_spell"
+  },
+  "vis": {
+    "ignis": 30,
+    "perditio": 10
+  }
+}

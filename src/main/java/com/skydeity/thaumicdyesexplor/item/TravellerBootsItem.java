@@ -20,28 +20,37 @@ public class TravellerBootsItem extends SimpleArmorItem {
     /** 靴子种类，决定移动参数。 */
     public enum Kind {
         /** 神秘旅者靴：跨步 1.0、加速 +0.085、跳跃 +0.275、坠落 -0.35。 */
-        THAUMIUM(0.40F, 0.20D, 0.275D, false, false),
+        THAUMIUM(0.40F, 0.20D, 0.275D, false, false, 2),
         /** 虚空旅者靴：跨步 1.0、加速 +0.10、跳跃 +0.35、坠落 -0.5、缓慢自修复。 */
-        VOID(0.40F, 0.30D, 0.35D, false, true),
+        VOID(0.40F, 0.30D, 0.35D, false, true, 5),
         /** 符文旅者靴：跨步 1.0、加速 +0.055、跳跃 +0.275、坠落 -0.25。 */
-        RUNIC_TRAVELLER(0.40F, 0.15D, 0.275D, false, false),
+        RUNIC_TRAVELLER(0.40F, 0.15D, 0.275D, false, false, 2),
         /** 流星靴：跳跃 +0.275、潜行起跳冲刺、落地砸地爆炸。 */
-        METEOR(0.40F, 0.15D, 0.275D, true, false),
+        METEOR(0.40F, 0.15D, 0.275D, true, false, 2),
         /** 彗星靴：跳跃 +0.275、行走时冻结脚下水面。 */
-        COMET(0.40F, 0.15D, 0.275D, false, false);
+        COMET(0.40F, 0.15D, 0.275D, false, false, 5);
 
         private final float stepBonus;
         private final double speedMultiplier;
         private final double jumpBonus;
         private final boolean slam;
         private final boolean selfRepair;
+        /** 仅用于 tooltip 展示的魔力减免（百分比），真正生效的是数据表。 */
+        private final int visDiscount;
 
-        Kind(float stepBonus, double speedMultiplier, double jumpBonus, boolean slam, boolean selfRepair) {
+        Kind(float stepBonus, double speedMultiplier, double jumpBonus, boolean slam, boolean selfRepair,
+             int visDiscount) {
             this.stepBonus = stepBonus;
             this.speedMultiplier = speedMultiplier;
             this.jumpBonus = jumpBonus;
             this.slam = slam;
             this.selfRepair = selfRepair;
+            this.visDiscount = visDiscount;
+        }
+
+        /** 魔力减免（百分比）：神秘 2 / 虚空 5 / 符文 2 / 流星 2 / 彗星 5。 */
+        public int visDiscount() {
+            return this.visDiscount;
         }
 
         /** 追加的跨步高度（原版基础 0.6，加到 1.0 需要 +0.4）。 */
@@ -73,7 +82,7 @@ public class TravellerBootsItem extends SimpleArmorItem {
     private final Kind kind;
 
     public TravellerBootsItem(Holder<ArmorMaterial> material, Properties properties, ArmorGeoType geoType, Kind kind) {
-        super(material, Type.BOOTS, properties, geoType);
+        super(material, Type.BOOTS, properties, geoType, kind.visDiscount());
         this.kind = kind;
     }
 

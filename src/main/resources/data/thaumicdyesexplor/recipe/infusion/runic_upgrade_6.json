@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 6
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 40,
+    "praecantatio": 56,
+    "terra": 32,
+    "potentia": 80
+  }
+}

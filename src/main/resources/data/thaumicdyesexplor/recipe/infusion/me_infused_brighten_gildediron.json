@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:gold_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_brighten_gildediron"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:rhudel": 16,
+    "lucrum": 16,
+    "praecantatio": 8
+  }
+}

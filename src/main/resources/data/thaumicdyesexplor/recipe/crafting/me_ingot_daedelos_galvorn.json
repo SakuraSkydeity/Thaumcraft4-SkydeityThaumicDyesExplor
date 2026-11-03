@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_nugget_daedelos_galvorn"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_material_daedelos_galvorn",
+    "count": 1
+  }
+}

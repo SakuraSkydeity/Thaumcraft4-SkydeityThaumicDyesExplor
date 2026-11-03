@@ -1,10 +1,26 @@
 {
   "replace": false,
   "values": {
-    "thaumicdyesexplor:void_robe_helmet": { "amount": 2 },
-    "thaumicdyesexplor:void_robe_chestplate": { "amount": 2 },
-    "thaumicdyesexplor:void_robe_leggings": { "amount": 2 },
-    "thaumicdyesexplor:void_boots_traveller": { "amount": 2 },
-    "thaumicdyesexplor:ancient_mask": { "amount": 2 }
+    "thaumicdyesexplor:void_robe_helmet": {
+      "amount": 2
+    },
+    "thaumicdyesexplor:void_robe_chestplate": {
+      "amount": 2
+    },
+    "thaumicdyesexplor:void_robe_leggings": {
+      "amount": 2
+    },
+    "thaumicdyesexplor:void_boots_traveller": {
+      "amount": 2
+    },
+    "thaumicdyesexplor:ancient_mask": {
+      "amount": 2
+    },
+    "thaumicdyesexplor:reli_terror_crown": {
+      "amount": 3
+    },
+    "thaumicdyesexplor:reli_oblivion_amulet": {
+      "amount": 4
+    }
   }
 }

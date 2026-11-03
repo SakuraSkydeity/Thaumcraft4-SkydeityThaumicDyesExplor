@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:gondor",
+  "color": "#e8e6e3",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:ordo"
+  ],
+  "natural_generation_weight": 1
+}

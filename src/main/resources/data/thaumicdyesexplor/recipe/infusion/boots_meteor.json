@@ -2,29 +2,33 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:TRAVELLERBOOTS",
   "central": {
-    "item": "thaumicdyesexplor:thaumium_boots_traveller"
+    "item": "thaumcraft:boots_of_the_traveller"
   },
   "components": [
     {
-      "item": "minecraft:gunpowder"
+      "item": "thaumcraft:fire_crystal_cluster"
     },
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "thaumcraft:focus_fire"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:boots_meteor"
   },
-  "instability": 5,
+  "instability": 4,
   "aspects": {
-    "ignis": 32,
-    "motus": 16,
-    "aer": 8
+    "ignis": 25,
+    "potentia": 25,
+    "iter": 25,
+    "volatus": 25
   }
 }

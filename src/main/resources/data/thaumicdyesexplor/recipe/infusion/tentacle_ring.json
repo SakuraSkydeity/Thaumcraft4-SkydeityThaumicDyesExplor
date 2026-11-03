@@ -6,25 +6,26 @@
   },
   "components": [
     {
-      "item": "thaumcraft:tainted_flesh"
+      "item": "thaumcraft:taint_slime"
     },
     {
-      "item": "thaumcraft:tainted_flesh"
+      "item": "thaumcraft:taint_tendril"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "thaumcraft:taint_slime"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "thaumcraft:taint_tendril"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:tentacle_ring"
   },
-  "instability": 6,
+  "instability": 4,
   "aspects": {
     "vitium": 32,
     "telum": 8,
+    "tutamen": 16,
     "bestia": 8
   }
 }

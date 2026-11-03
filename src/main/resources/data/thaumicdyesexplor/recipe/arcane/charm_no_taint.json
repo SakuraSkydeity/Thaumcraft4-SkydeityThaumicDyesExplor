@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ACCESSORIES",
+  "vis": {
+    "ordo": 15,
+    "perditio": 15
+  },
+  "pattern": [
+    "GPG",
+    "PSP",
+    "FPF"
+  ],
+  "key": {
+    "G": {
+      "item": "thaumcraft:taint_slime"
+    },
+    "P": {
+      "item": "thaumcraft:greatwood_planks"
+    },
+    "S": {
+      "item": "thaumcraft:taint_tendril"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:charm_no_taint"
+  }
+}

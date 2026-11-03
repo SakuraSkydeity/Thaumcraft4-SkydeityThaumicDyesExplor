@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:rhudel",
+  "color": "#ceab5f",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:fames"
+  ],
+  "natural_generation_weight": 1
+}

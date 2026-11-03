@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:MERELIC_ROOT",
+  "central": {
+    "item": "thaumcraft:focus_portable_hole"
+  },
+  "components": [
+    {
+      "item": "minecraft:grindstone"
+    },
+    {
+      "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_stared_mithril"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_focus_bedrock_remover"
+  },
+  "instability": 9,
+  "aspects": {
+    "perditio": 64,
+    "tenebrae": 32,
+    "vacuos": 32,
+    "thaumicdyesexplor:alfirin": 16,
+    "thaumicdyesexplor:utumno": 16
+  }
+}

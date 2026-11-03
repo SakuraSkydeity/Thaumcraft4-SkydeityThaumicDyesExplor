@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "pattern": [
+    "  S",
+    " W ",
+    "W  "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:thaumic_charm"
+    },
+    "W": {
+      "item": "thaumicdyesexplor:me_wand_core_blue_mountains"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_staff_core_blue_mountains"
+  },
+  "vis": {
+    "aer": 80,
+    "terra": 80,
+    "ignis": 80,
+    "aqua": 80,
+    "ordo": 80,
+    "perditio": 80
+  }
+}

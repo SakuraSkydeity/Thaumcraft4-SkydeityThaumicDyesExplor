@@ -1,0 +1,11 @@
+{
+  "parent": "thaumicdyesexplor:block/tx_crucible",
+  "textures": {
+    "particle": "thaumcraft:block/crucible3",
+    "side": "thaumcraft:block/crucible3",
+    "top": "thaumcraft:block/crucible1",
+    "bottom": "thaumcraft:block/crucible2",
+    "inner_side": "thaumicdyesexplor:block/soul_crucible_inner_side",
+    "inner_bottom": "thaumicdyesexplor:block/soul_crucible_inner_bottom"
+  }
+}

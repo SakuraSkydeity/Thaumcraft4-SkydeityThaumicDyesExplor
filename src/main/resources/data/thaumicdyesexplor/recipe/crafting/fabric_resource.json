@@ -1,18 +1,27 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:white_wool"
-    },
-    {
-      "item": "minecraft:string"
-    },
-    {
-      "item": "minecraft:string"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ROOT",
+  "vis": {
+    "perditio": 2,
+    "ordo": 5
+  },
+  "pattern": [
+    "R",
+    "F",
+    "V"
   ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "F": {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    "V": {
+      "item": "thaumcraft:void_seed"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:fabric_resource",
-    "count": 1
+    "id": "thaumicdyesexplor:fabric_resource"
   }
 }

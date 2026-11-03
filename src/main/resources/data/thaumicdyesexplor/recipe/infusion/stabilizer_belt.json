@@ -6,21 +6,32 @@
   },
   "components": [
     {
-      "item": "thaumcraft:salis_mundus"
+      "item": "minecraft:iron_ingot"
     },
     {
       "item": "minecraft:iron_ingot"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:stabilizer_belt"
   },
-  "instability": 5,
+  "instability": 3,
   "aspects": {
-    "ordo": 24,
-    "tutamen": 8
+    "ordo": 12,
+    "terra": 12,
+    "tutamen": 4,
+    "iter": 8
   }
 }

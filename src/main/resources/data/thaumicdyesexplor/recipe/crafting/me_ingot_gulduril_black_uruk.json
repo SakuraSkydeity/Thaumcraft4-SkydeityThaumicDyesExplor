@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_nugget_gulduril_black_uruk"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_material_gulduril_black_uruk",
+    "count": 1
+  }
+}

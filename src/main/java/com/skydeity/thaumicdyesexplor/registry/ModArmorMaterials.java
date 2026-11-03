@@ -162,6 +162,13 @@ public final class ModArmorMaterials {
     public static final Holder<ArmorMaterial> BOOTS_COMET = set("boots_comet", 0, 0, 0, 2, 25,
             SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, plate("boots_comet"));
 
+    // ============================================================================================
+    // Forgotten Relics —— 恐惧王冠（NOBLEGOLD：3/9/6/3，耐久系数 40，只有头盔）
+    // 源贴图 crown_prs.png 本身就是标准 64x32 人形布局，直接搬为 layer_1。
+    // ============================================================================================
+    public static final Holder<ArmorMaterial> TERROR_CROWN = set("terror_crown", 3, 9, 6, 3, 0,
+            SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, plate("terror_crown"));
+
     /**
      * 一个渲染层：资源名 + 是否吃染料颜色。
      *

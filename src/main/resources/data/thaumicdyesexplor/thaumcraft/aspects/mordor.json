@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:mordor",
+  "color": "#2b1501",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:telum"
+  ],
+  "natural_generation_weight": 1
+}

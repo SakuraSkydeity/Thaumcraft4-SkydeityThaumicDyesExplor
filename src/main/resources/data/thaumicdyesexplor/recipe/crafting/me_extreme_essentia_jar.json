@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ME_JARS",
+  "pattern": [
+    "SXS",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:warded_glass"
+    },
+    "X": {
+      "item": "thaumicdyesexplor:me_extreme_jar_cap"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_extreme_essentia_jar",
+    "count": 1
+  },
+  "vis": {
+    "aer": 300,
+    "ignis": 300,
+    "aqua": 300,
+    "terra": 300,
+    "ordo": 300,
+    "perditio": 300
+  }
+}

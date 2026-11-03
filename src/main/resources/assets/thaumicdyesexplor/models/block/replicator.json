@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "thaumicdyesexplor:block/replicator_side",
+    "side": "thaumicdyesexplor:block/replicator_side",
+    "top": "thaumicdyesexplor:block/replicator_top",
+    "bottom": "thaumicdyesexplor:block/replicator_bottom"
+  }
+}

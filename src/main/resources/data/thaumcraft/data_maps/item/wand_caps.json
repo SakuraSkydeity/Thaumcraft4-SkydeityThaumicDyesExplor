@@ -18,6 +18,96 @@
       "texture": "thaumicdyesexplor:textures/models/cap_mechanist.png",
       "craft_cost": 6,
       "order": 101
+    },
+    "thaumicdyesexplor:me_wand_cap_mithril": {
+      "material": "thaumicdyesexplor:me_mithril",
+      "base_cost_modifier": 0.65,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.65,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_mithril.png",
+      "craft_cost": 6,
+      "order": 110
+    },
+    "thaumicdyesexplor:me_wand_cap_orcsteel": {
+      "material": "thaumicdyesexplor:me_orcsteel",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_orcsteel.png",
+      "craft_cost": 4,
+      "order": 111
+    },
+    "thaumicdyesexplor:me_wand_cap_dwarvensteel": {
+      "material": "thaumicdyesexplor:me_dwarvensteel",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_dwarvensteel.png",
+      "craft_cost": 4,
+      "order": 112
+    },
+    "thaumicdyesexplor:me_wand_cap_galvorn": {
+      "material": "thaumicdyesexplor:me_galvorn",
+      "base_cost_modifier": 0.8,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.8,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_galvorn.png",
+      "craft_cost": 5,
+      "order": 113
+    },
+    "thaumicdyesexplor:me_wand_cap_uruksteel": {
+      "material": "thaumicdyesexplor:me_uruksteel",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_uruksteel.png",
+      "craft_cost": 4,
+      "order": 114
+    },
+    "thaumicdyesexplor:me_wand_cap_morgulsteel": {
+      "material": "thaumicdyesexplor:me_morgulsteel",
+      "base_cost_modifier": 0.8,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.8,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_morgulsteel.png",
+      "craft_cost": 5,
+      "order": 115
+    },
+    "thaumicdyesexplor:me_wand_cap_bluedwarvensteel": {
+      "material": "thaumicdyesexplor:me_bluedwarvensteel",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_bluedwarvensteel.png",
+      "craft_cost": 4,
+      "order": 116
+    },
+    "thaumicdyesexplor:me_wand_cap_blackuruksteel": {
+      "material": "thaumicdyesexplor:me_blackuruksteel",
+      "base_cost_modifier": 0.9,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.9,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_blackuruksteel.png",
+      "craft_cost": 4,
+      "order": 117
+    },
+    "thaumicdyesexplor:me_wand_cap_elvensteel": {
+      "material": "thaumicdyesexplor:me_elvensteel",
+      "base_cost_modifier": 0.9,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.9,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_elvensteel.png",
+      "craft_cost": 4,
+      "order": 118
+    },
+    "thaumicdyesexplor:me_wand_cap_gildediron": {
+      "material": "thaumicdyesexplor:me_gildediron",
+      "base_cost_modifier": 0.95,
+      "special_cost_modifier_aspects": [],
+      "special_cost_modifier": 0.95,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_cap_gildediron.png",
+      "craft_cost": 4,
+      "order": 119
     }
   }
 }

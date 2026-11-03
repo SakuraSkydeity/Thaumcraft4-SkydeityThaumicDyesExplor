@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:gray_banner"
+    },
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_dwarf"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:angdol": 24,
+    "praecantatio": 8
+  }
+}

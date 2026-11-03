@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:dolguldur",
+  "color": "#12122d",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:spiritus"
+  ],
+  "natural_generation_weight": 1
+}

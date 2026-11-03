@@ -1,6 +1,7 @@
 package com.skydeity.thaumicdyesexplor.registry;
 
 import com.skydeity.thaumicdyesexplor.ThaumicDyesExplor;
+import com.skydeity.thaumicdyesexplor.effect.BindingEffect;
 import com.skydeity.thaumicdyesexplor.effect.TaintWithdrawalEffect;
 
 import net.minecraft.core.Holder;
@@ -22,6 +23,10 @@ public final class ModEffects {
     /** 腐化戒断：持续掉血 + 加速饥饿。 */
     public static final Holder<MobEffect> TAINT_WITHDRAWAL =
             EFFECTS.register("taint_withdrawal", TaintWithdrawalEffect::new);
+
+    /** 束缚：末影人 / 苦力怕 / 玩家不能传送或引爆（「束缚」附魔 2 级的标记）。 */
+    public static final Holder<MobEffect> BINDING =
+            EFFECTS.register("binding", BindingEffect::new);
 
     private ModEffects() {
     }

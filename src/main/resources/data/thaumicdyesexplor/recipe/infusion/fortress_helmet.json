@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "thaumcraft:fortress_helmet"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "thaumcraft:magic_tallow"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:fortress_helmet"
+  },
+  "instability": 5,
+  "aspects": {
+    "tutamen": 16,
+    "praecantatio": 16,
+    "pannus": 8,
+    "metallum": 16
+  }
+}

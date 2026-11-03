@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:eredluin",
+  "color": "#4794cc",
+  "components": [
+    "thaumicdyesexplor:nauglin",
+    "thaumcraft:gelum"
+  ],
+  "natural_generation_weight": 1
+}

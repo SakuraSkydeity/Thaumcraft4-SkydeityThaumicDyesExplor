@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:shire",
+  "color": "#51ff57",
+  "components": [
+    "thaumicdyesexplor:perian",
+    "thaumcraft:messis"
+  ],
+  "natural_generation_weight": 1
+}

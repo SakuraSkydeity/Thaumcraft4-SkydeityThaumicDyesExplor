@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RELI_BAUBLES",
+  "central": {
+    "item": "thaumcraft:mundane_ring"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:sanity_soap"
+    },
+    {
+      "item": "thaumicdyesexplor:me_nugget_stared_mithril"
+    },
+    {
+      "item": "thaumicdyesexplor:me_nugget_stared_mithril"
+    },
+    {
+      "item": "thaumicdyesexplor:me_nugget_stared_mithril"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_ring_warpward"
+  },
+  "instability": 8,
+  "aspects": {
+    "auram": 64,
+    "vitium": 64,
+    "thaumicdyesexplor:ithryn": 64,
+    "thaumicdyesexplor:alfirin": 64
+  }
+}

@@ -2,26 +2,36 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:ACCESSORIES",
   "central": {
-    "item": "thaumcraft:mundane_amulet"
+    "item": "thaumcraft:thaumic_charm"
   },
   "components": [
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "thaumcraft:salis_mundus"
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:bread"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:talisman_food"
   },
-  "instability": 4,
+  "instability": 5,
   "aspects": {
-    "fames": 16,
-    "victus": 8,
-    "sano": 8
+    "fames": 30,
+    "corpus": 25,
+    "messis": 25,
+    "permutatio": 10
   }
 }

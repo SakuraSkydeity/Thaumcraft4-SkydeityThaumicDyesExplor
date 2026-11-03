@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:uhorm",
+  "color": "#ba8723",
+  "components": [
+    "thaumcraft:arbor",
+    "thaumcraft:bestia"
+  ],
+  "natural_generation_weight": 1
+}

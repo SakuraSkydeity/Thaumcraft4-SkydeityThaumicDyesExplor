@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:dunland",
+  "color": "#af9f99",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:perditio"
+  ],
+  "natural_generation_weight": 1
+}

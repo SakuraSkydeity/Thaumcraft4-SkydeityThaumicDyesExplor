@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:mornogol",
+  "color": "#726e6d",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:humanus"
+  ],
+  "natural_generation_weight": 771
+}

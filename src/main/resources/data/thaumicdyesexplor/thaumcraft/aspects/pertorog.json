@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:pertorog",
+  "color": "#8c7f5b",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumicdyesexplor:torog"
+  ],
+  "natural_generation_weight": 1
+}

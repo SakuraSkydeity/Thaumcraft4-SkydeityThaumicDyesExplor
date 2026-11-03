@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_nugget_edhelmir_elven"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_material_edhelmir_elven",
+    "count": 1
+  }
+}

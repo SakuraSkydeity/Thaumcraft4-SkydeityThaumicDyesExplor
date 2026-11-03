@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:nauglin",
+  "color": "#afb9c9",
+  "components": [
+    "thaumcraft:humanus",
+    "thaumcraft:perfodio"
+  ],
+  "natural_generation_weight": 1
+}

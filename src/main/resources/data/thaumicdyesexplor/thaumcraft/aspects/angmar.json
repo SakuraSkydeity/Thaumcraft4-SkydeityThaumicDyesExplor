@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:angmar",
+  "color": "#729176",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:vitium"
+  ],
+  "natural_generation_weight": 1
+}

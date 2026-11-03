@@ -6,16 +6,13 @@
   },
   "components": [
     {
+      "item": "minecraft:splash_potion"
+    },
+    {
       "item": "minecraft:golden_apple"
     },
     {
       "item": "minecraft:water_bucket"
-    },
-    {
-      "item": "thaumcraft:salis_mundus"
-    },
-    {
-      "item": "minecraft:ghast_tear"
     }
   ],
   "result": {

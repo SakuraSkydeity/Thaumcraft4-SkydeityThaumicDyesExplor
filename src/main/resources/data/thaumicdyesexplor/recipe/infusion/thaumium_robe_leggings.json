@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "thaumcraft:thaumium_leggings"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:robe_leggings"
+    },
+    {
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:thaumium_robe_leggings"
+  },
+  "instability": 4,
+  "aspects": {
+    "metallum": 20,
+    "tutamen": 20,
+    "pannus": 20,
+    "praecantatio": 16
+  }
+}

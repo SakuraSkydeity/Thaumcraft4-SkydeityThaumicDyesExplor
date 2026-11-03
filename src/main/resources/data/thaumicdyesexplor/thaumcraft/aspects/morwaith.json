@@ -1,0 +1,10 @@
+{
+  "id": "thaumicdyesexplor:morwaith",
+  "color": "#e0b869",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:venenum"
+  ],
+  "natural_generation_weight": 1,
+  "texture": "thaumicdyesexplor:textures/aspects/morwaith.png"
+}

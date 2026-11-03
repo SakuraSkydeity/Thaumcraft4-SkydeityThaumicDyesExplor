@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:gray_banner"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_ranger_north"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:dunedain": 24,
+    "praecantatio": 8
+  }
+}

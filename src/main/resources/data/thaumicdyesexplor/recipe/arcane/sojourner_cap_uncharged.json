@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:CAP_SOJOURNER",
+  "vis": {
+    "aer": 6,
+    "perditio": 6,
+    "ordo": 6
+  },
+  "pattern": [
+    "ABA",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:sojourner_cap_uncharged"
+  }
+}

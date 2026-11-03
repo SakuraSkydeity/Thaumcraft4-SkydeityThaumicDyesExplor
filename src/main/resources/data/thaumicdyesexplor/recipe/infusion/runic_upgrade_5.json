@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 5
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 48,
+    "praecantatio": 32,
+    "ordo": 32,
+    "metallum": 40
+  }
+}

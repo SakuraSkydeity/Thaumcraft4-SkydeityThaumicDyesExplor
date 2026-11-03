@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:salis_mundus"
+    },
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:balanced_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 2
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 256,
+    "praecantatio": 256,
+    "potentia": 512,
+    "vitreus": 32
+  }
+}

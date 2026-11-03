@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:light_gray_banner"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_half_troll"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:pertorog": 24,
+    "praecantatio": 8
+  }
+}

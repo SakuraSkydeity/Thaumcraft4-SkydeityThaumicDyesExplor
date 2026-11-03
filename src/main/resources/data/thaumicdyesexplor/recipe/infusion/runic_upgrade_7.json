@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "thaumcraft:obsidian_tile"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "thaumcraft:entropy_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 7
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 24,
+    "praecantatio": 32,
+    "motus": 40,
+    "perditio": 60
+  }
+}

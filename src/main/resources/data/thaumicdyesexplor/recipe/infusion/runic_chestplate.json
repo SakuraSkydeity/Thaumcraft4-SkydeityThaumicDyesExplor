@@ -6,25 +6,25 @@
   },
   "components": [
     {
-      "item": "thaumcraft:salis_mundus"
+      "item": "thaumcraft:thaumic_charm"
     },
     {
       "item": "thaumcraft:amber"
+    },
+    {
+      "item": "thaumcraft:enchanted_fabric"
+    },
+    {
+      "item": "thaumcraft:nitor"
+    },
+    {
+      "item": "thaumcraft:nitor"
     },
     {
       "item": "thaumcraft:nitor"
     },
     {
       "item": "thaumcraft:inkwell"
-    },
-    {
-      "item": "thaumcraft:thaumium_nugget"
-    },
-    {
-      "item": "thaumcraft:thaumium_nugget"
-    },
-    {
-      "item": "thaumcraft:thaumium_nugget"
     }
   ],
   "result": {

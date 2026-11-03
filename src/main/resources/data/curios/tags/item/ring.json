@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "thaumicdyesexplor:discount_ring",
-    "thaumicdyesexplor:tentacle_ring"
+    "thaumicdyesexplor:tentacle_ring",
+    "thaumicdyesexplor:me_ring_warpward",
+    "thaumicdyesexplor:reli_dark_sun_ring",
+    "thaumicdyesexplor:reli_superposition_ring",
+    "thaumicdyesexplor:reli_discord_ring",
+    "thaumicdyesexplor:reli_mining_charm",
+    "thaumicdyesexplor:reli_advanced_mining_charm"
   ]
 }

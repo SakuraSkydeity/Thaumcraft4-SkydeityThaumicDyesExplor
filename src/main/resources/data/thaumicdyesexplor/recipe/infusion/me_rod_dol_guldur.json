@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:purple_banner"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:deepslate_bricks"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_dol_guldur"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:dolguldur": 24,
+    "praecantatio": 8
+  }
+}

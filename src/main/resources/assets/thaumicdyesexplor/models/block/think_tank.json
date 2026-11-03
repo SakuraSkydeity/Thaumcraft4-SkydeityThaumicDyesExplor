@@ -1,0 +1,9 @@
+{
+  "parent": "thaumicdyesexplor:block/tx_jar",
+  "textures": {
+    "particle": "thaumicdyesexplor:block/jar_side_think",
+    "side": "thaumicdyesexplor:block/jar_side_think",
+    "top": "thaumicdyesexplor:block/jar_top_think",
+    "bottom": "thaumicdyesexplor:block/jar_bottom_think"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:ithryn",
+  "color": "#dddddd",
+  "components": [
+    "thaumicdyesexplor:alfirin",
+    "thaumcraft:praecantatio"
+  ],
+  "natural_generation_weight": 1
+}

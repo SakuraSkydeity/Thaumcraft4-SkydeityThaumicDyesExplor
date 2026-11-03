@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:edhel",
+  "color": "#eac0e5",
+  "components": [
+    "thaumcraft:humanus",
+    "thaumicdyesexplor:alfirin"
+  ],
+  "natural_generation_weight": 1
+}

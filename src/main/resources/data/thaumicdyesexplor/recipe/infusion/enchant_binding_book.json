@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ENCHANTS",
+  "central": {
+    "item": "minecraft:book"
+  },
+  "components": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:chain"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "thaumicdyesexplor:binding": 2
+        }
+      }
+    }
+  },
+  "instability": 5,
+  "aspects": {
+    "vinculum": 24,
+    "praecantatio": 16,
+    "ordo": 8
+  }
+}

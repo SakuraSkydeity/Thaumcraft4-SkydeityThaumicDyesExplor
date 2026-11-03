@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_material_daedelos_morgul"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_storage_daedelos_morgul",
+    "count": 1
+  }
+}

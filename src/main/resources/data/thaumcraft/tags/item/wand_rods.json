@@ -3,6 +3,29 @@
   "values": [
     "thaumicdyesexplor:bread_core",
     "thaumicdyesexplor:amber_core",
-    "thaumicdyesexplor:transmutation_core"
+    "thaumicdyesexplor:transmutation_core",
+    "thaumicdyesexplor:me_wand_core_gondor",
+    "thaumicdyesexplor:me_wand_core_hobbit",
+    "thaumicdyesexplor:me_wand_core_ranger_north",
+    "thaumicdyesexplor:me_wand_core_blue_mountains",
+    "thaumicdyesexplor:me_wand_core_high_elf",
+    "thaumicdyesexplor:me_wand_core_gundabad",
+    "thaumicdyesexplor:me_wand_core_angmar",
+    "thaumicdyesexplor:me_wand_core_wood_elf",
+    "thaumicdyesexplor:me_wand_core_dol_guldur",
+    "thaumicdyesexplor:me_wand_core_dale",
+    "thaumicdyesexplor:me_wand_core_dwarf",
+    "thaumicdyesexplor:me_wand_core_galadhrim",
+    "thaumicdyesexplor:me_wand_core_dunland",
+    "thaumicdyesexplor:me_wand_core_uruk_hai",
+    "thaumicdyesexplor:me_wand_core_fangorn",
+    "thaumicdyesexplor:me_wand_core_rohan",
+    "thaumicdyesexplor:me_wand_core_mordor",
+    "thaumicdyesexplor:me_wand_core_dorwinion",
+    "thaumicdyesexplor:me_wand_core_rhun",
+    "thaumicdyesexplor:me_wand_core_near_harad",
+    "thaumicdyesexplor:me_wand_core_moredain",
+    "thaumicdyesexplor:me_wand_core_tauredain",
+    "thaumicdyesexplor:me_wand_core_half_troll"
   ]
 }

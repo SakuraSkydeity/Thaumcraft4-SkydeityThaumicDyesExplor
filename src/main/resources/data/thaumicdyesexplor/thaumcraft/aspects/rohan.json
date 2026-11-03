@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:rohan",
+  "color": "#bc7709",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:bestia"
+  ],
+  "natural_generation_weight": 1
+}

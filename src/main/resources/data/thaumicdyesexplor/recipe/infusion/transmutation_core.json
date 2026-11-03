@@ -2,7 +2,7 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:ROD_TRANSMUTATION",
   "central": {
-    "item": "thaumcraft:greatwood_wand_rod"
+    "item": "thaumcraft:thaumic_charm"
   },
   "components": [
     {

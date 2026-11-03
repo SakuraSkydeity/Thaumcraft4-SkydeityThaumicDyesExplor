@@ -6,10 +6,7 @@
   },
   "components": [
     {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "item": "minecraft:redstone"
+      "item": "thaumcraft:salis_mundus"
     },
     {
       "item": "thaumcraft:salis_mundus"
@@ -18,9 +15,11 @@
   "result": {
     "id": "thaumicdyesexplor:mechanist_cap"
   },
-  "instability": 3,
+  "instability": 5,
   "aspects": {
     "machina": 16,
-    "potentia": 8
+    "praecantatio": 12,
+    "auram": 6,
+    "potentia": 12
   }
 }

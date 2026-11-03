@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "minecraft:iron_helmet"
+  },
+  "components": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:iron_fortress_helmet"
+  },
+  "instability": 1,
+  "aspects": {
+    "tutamen": 8,
+    "metallum": 8,
+    "fabrico": 8
+  }
+}

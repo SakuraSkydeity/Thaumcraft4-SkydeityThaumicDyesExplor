@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:nazgul",
+  "color": "#073513",
+  "components": [
+    "thaumicdyesexplor:angmar",
+    "thaumcraft:spiritus"
+  ],
+  "natural_generation_weight": 1
+}

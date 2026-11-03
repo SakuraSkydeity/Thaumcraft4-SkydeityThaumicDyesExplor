@@ -1,0 +1,31 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_TOMES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_fate_tome"
+  },
+  "vis": {
+    "ordo": 60,
+    "aqua": 30,
+    "perditio": 30
+  }
+}

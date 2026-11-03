@@ -1,0 +1,36 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:alumentum"
+    },
+    {
+      "item": "thaumcraft:fire_shard"
+    },
+    {
+      "item": "thaumcraft:thaumium_sword"
+    },
+    {
+      "item": "thaumcraft:order_shard"
+    },
+    {
+      "item": "thaumcraft:alumentum"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 10
+  },
+  "instability": 6,
+  "aspects": {
+    "telum": 200,
+    "praecantatio": 64,
+    "potentia": 96
+  }
+}

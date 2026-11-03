@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:lothlorien",
+  "color": "#f2e479",
+  "components": [
+    "thaumicdyesexplor:edhel",
+    "thaumcraft:auram"
+  ],
+  "natural_generation_weight": 1
+}

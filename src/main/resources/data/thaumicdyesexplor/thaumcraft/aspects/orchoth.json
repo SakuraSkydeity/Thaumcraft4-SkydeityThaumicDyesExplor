@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:orchoth",
+  "color": "#47775a",
+  "components": [
+    "thaumicdyesexplor:edhel",
+    "thaumcraft:mortuus"
+  ],
+  "natural_generation_weight": 771
+}

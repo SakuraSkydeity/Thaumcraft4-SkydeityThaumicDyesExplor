@@ -35,9 +35,46 @@ def clean(text):
     return text
 
 
+def expand_loops(src):
+    """把 ``for (int a = 0; a < N; a++) this.Mask[a] = ...`` 这种循环展开成逐项。
+
+    1.7.10 的模型里有「数组 + 循环」建出来的部件（ModelFortress / ModelIronFortress
+    的 ``Mask[0..2]``，texOffs = ``52 + a * 24``）。原脚本的正则只认字面数字索引，
+    这三片面具会整个丢掉。
+    """
+    for name, size in re.findall(r'this\.(\w+)\s*=\s*new ModelRenderer\[(\d+)\]', src):
+        size = int(size)
+        out = []
+        for line in src.split('\n'):
+            mm = re.search(r'this\.%s\[([A-Za-z_]\w*)\]' % re.escape(name), line)
+            if not mm:
+                out.append(line)
+                continue
+            var = mm.group(1)
+            for index in range(size):
+                rep = line.replace('[%s]' % var, '[%d]' % index)
+                # 52 + a * 24
+                rep = re.sub(
+                    r'(-?\d+(?:\.\d+)?)\s*\+\s*%s\s*\*\s*(-?\d+(?:\.\d+)?)' % re.escape(var),
+                    lambda mo, i=index: str(_fmt_num(float(mo.group(1)) + i * float(mo.group(2)))),
+                    rep)
+                # a * 24 + 52
+                rep = re.sub(
+                    r'(-?\d+(?:\.\d+)?)\s*\*\s*%s\s*\+\s*(-?\d+(?:\.\d+)?)' % re.escape(var),
+                    lambda mo, i=index: str(_fmt_num(i * float(mo.group(1)) + float(mo.group(2)))),
+                    rep)
+                out.append(rep)
+        src = '\n'.join(out)
+    return src
+
+
+def _fmt_num(value):
+    return int(value) if float(value).is_integer() else value
+
+
 def parse(path):
     raw = open(path, encoding='utf-8', errors='replace').read()
-    src = clean(raw)
+    src = expand_loops(clean(raw))
     m = re.search(r'super\(\s*f\s*,\s*' + num + r'\s*,\s*' + r'(\d+)\s*,\s*(\d+)\s*\)', src)
     tex_w, tex_h = (int(m.group(2)), int(m.group(3))) if m else (128, 64)
 
@@ -60,11 +97,15 @@ def parse(path):
         p['u'], p['v'] = int(mm.group(4)), int(mm.group(5))
 
     # 语句级扫描：this.X(.或[i]) . 调用
-    stmt = re.compile(r'this\.(\w+)(?:\[(\d+)\])?\s*\.?\s*')
-    # 直接按行处理链式调用
     for line in src.split('\n'):
         line = line.strip()
-        if not line.startswith('this.'):
+        # ModelFortress / ModelIronFortress / ModelPaladin / ModelPraetor 用 super.bipedXxx.addChild(...)，
+        # 只认 this. 开头的行会把它们的挂载全丢掉（部件退回 body，肩甲与裤腿全部错位）。
+        # setRotation(this.X, ...) / setRotateAngle(this.X, ...) 以方法名开头 —— 不放行的话
+        # 所有部件的静态旋转角会整批丢失（兜帽/披风/肩甲全部僵直，第 25 轮用户报的
+        # 「穿身上的模型不对」的根因之一）。
+        if not (line.startswith('this.') or line.startswith('super.')
+                or line.startswith('setRotation(') or line.startswith('setRotateAngle(')):
             continue
         # mirror
         for mm in re.finditer(r'this\.(\w+)(?:\[(\d+)\])?\.mirror\s*=\s*true', line):
@@ -80,8 +121,12 @@ def parse(path):
         for mm in re.finditer(r'this\.(\w+)(?:\[(\d+)\])?\.setRotationPoint\(\s*' + num + r'\s*,\s*' + num + r'\s*,\s*' + num + r'\s*\)', line):
             key = mm.group(1) + ('#' + mm.group(2) if mm.group(2) else '')
             part(key)['pivot'] = [float(mm.group(3)), float(mm.group(4)), float(mm.group(5))]
-        # setRotation(this.X, x, y, z)
+        # setRotation(this.X, x, y, z) —— ModelRobes / ModelFortress 等的辅助方法
         for mm in re.finditer(r'setRotation\(\s*this\.(\w+)(?:\[(\d+)\])?\s*,\s*' + num + r'\s*,\s*' + num + r'\s*,\s*' + num + r'\s*\)', line):
+            key = mm.group(1) + ('#' + mm.group(2) if mm.group(2) else '')
+            part(key)['rot'] = [float(mm.group(3)), float(mm.group(4)), float(mm.group(5))]
+        # setRotateAngle(this.X, x, y, z) —— ModelRanger / ModelRanger2 的同名辅助方法
+        for mm in re.finditer(r'setRotateAngle\(\s*this\.(\w+)(?:\[(\d+)\])?\s*,\s*' + num + r'\s*,\s*' + num + r'\s*,\s*' + num + r'\s*\)', line):
             key = mm.group(1) + ('#' + mm.group(2) if mm.group(2) else '')
             part(key)['rot'] = [float(mm.group(3)), float(mm.group(4)), float(mm.group(5))]
         # 直接赋值 rotateAngle
@@ -89,11 +134,11 @@ def parse(path):
             key = mm.group(1) + ('#' + mm.group(2) if mm.group(2) else '')
             idx = 'XYZ'.index(mm.group(3))
             part(key)['rot'][idx] = float(mm.group(4))
-        # addChild
-        for mm in re.finditer(r'this\.(biped\w+|(\w+)(?:\[(\d+)\])?)\.addChild\(\s*this\.(\w+)(?:\[(\d+)\])?\s*\)', line):
-            parent_raw = mm.group(1)
-            child = mm.group(4) + ('#' + mm.group(5) if mm.group(5) else '')
-            parent = PARENT_PARTS.get(parent_raw, parent_raw + ('#' + mm.group(3) if mm.group(3) else ''))
+        # addChild（this. 与 super. 两种写法都要认）
+        for mm in re.finditer(r'(?:this|super)\.(\w+)(?:\[(\d+)\])?\.addChild\(\s*this\.(\w+)(?:\[(\d+)\])?\s*\)', line):
+            parent_raw = mm.group(1) + ('#' + mm.group(2) if mm.group(2) else '')
+            child = mm.group(3) + ('#' + mm.group(4) if mm.group(4) else '')
+            parent = PARENT_PARTS.get(mm.group(1), parent_raw)
             if child in parts:
                 part(child)['parent'] = parent
             else:
@@ -137,6 +182,8 @@ def emit(name, tex_w, tex_h, parts, arrays, desc):
     # 保证父部件先创建
     ordered = sorted(parts.values(), key=lambda p: (0 if p['parent'] in PARENT_PARTS.values() else 1, p['order']))
     for p in ordered:
+        if p['name'] in PARENT_PARTS:      # bipedHead / bipedBody ... 是原版部件本身，不是追加几何
+            continue
         parent = p['parent']
         for box in p['boxes']:
             args = [fmt(box[i]) for i in range(7)]

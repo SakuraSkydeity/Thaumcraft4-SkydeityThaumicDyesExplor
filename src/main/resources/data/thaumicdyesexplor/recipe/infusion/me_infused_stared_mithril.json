@@ -1,0 +1,46 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:gold_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_stared_mithril"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:alfirin": 64,
+    "thaumicdyesexplor:nauglin": 16,
+    "thaumicdyesexplor:utumno": 16,
+    "auram": 32
+  }
+}

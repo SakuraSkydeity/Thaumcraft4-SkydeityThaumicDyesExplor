@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "thaumcraft:cultist_plate_helmet"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:entropy_shard"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "thaumcraft:void_seed"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:inhabited_plate_helmet"
+  },
+  "instability": 3,
+  "aspects": {
+    "perditio": 16,
+    "alienis": 16,
+    "metallum": 16,
+    "tutamen": 16
+  }
+}

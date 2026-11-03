@@ -1,18 +1,27 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_robe_helmet"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    },
-    {
-      "item": "minecraft:string"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "aer": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "IHI",
+    " g "
   ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:iron_helmet"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_archer_helmet",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_archer_helmet"
   }
 }

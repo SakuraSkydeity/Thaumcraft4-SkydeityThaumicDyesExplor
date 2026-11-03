@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "thaumicdyesexplor:talisman_food"
+    "thaumicdyesexplor:talisman_food",
+    "thaumicdyesexplor:reli_deific_amulet",
+    "thaumicdyesexplor:reli_oblivion_amulet",
+    "thaumicdyesexplor:reli_shiny_stone",
+    "thaumicdyesexplor:reli_arcanum",
+    "thaumicdyesexplor:reli_omega_core",
+    "thaumicdyesexplor:reli_oblivion_stone",
+    "thaumicdyesexplor:reli_dormant_arcanum"
   ]
 }

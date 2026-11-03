@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SXS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_jar_binder",
+    "count": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_JARS",
+  "central": {
+    "item": "thaumicdyesexplor:me_storage_stared_mithril"
+  },
+  "components": [
+    {
+      "item": "thaumicdyesexplor:me_material_gulduril_black_uruk"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_ithildin_blue_dwarven"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_ithildin_dwarven"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_edhelmir_elven"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_daedelos_galvorn"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_stared_mithril"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_daedelos_morgul"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_durnaur_orc"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_gulduril_uruk"
+    },
+    {
+      "item": "thaumicdyesexplor:me_material_brighten_gildediron"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_extreme_jar_cap"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:utumno": 16,
+    "thaumicdyesexplor:alfirin": 32,
+    "thaumicdyesexplor:nauglin": 16
+  }
+}

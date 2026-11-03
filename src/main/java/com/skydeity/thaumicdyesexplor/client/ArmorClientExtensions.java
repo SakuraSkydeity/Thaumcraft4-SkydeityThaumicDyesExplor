@@ -3,6 +3,7 @@ package com.skydeity.thaumicdyesexplor.client;
 import com.skydeity.thaumicdyesexplor.item.ArmorGeoType;
 
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.Model;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorMaterial;
@@ -39,8 +40,34 @@ public final class ArmorClientExtensions implements IClientItemExtensions {
     @Override
     public HumanoidModel<?> getHumanoidArmorModel(LivingEntity entity, ItemStack stack, EquipmentSlot slot,
                                                   HumanoidModel<?> original) {
-        HumanoidModel<LivingEntity> custom = ArmorGeoModels.get(this.geoType, slot);
+        // 条件几何（堡垒/铁堡垒/符文III/游侠系）按佩戴者状态取不同的烘焙结果；
+        // 状态空间有界且缓存，不会每帧重建模型。
+        HumanoidModel<LivingEntity> custom = ArmorGeoModels.get(this.geoType, slot,
+                com.skydeity.thaumicdyesexplor.client.model.ArmorWearerState.of(entity, this.geoType));
         return custom != null ? custom : original;
+    }
+
+    /**
+     * 让自定义模型跟着实体动起来（走路摆臂、潜行弯腰、游泳、挥手）。
+     *
+     * <p>原版 {@code HumanoidArmorLayer} 只对<b>它自己的</b> inner/outer 模型调用
+     * {@code copyPropertiesTo} + {@code setupAnim}，我们换上去的模型收不到，四肢会僵在站立姿势。
+     * 这里补上同一套状态复制 + {@code setupAnim}。</p>
+     */
+    @Override
+    @SuppressWarnings({"unchecked", "rawtypes"})
+    public void setupModelAnimations(LivingEntity entity, ItemStack stack, EquipmentSlot slot, Model model,
+                                     float limbSwing, float limbSwingAmount, float partialTick,
+                                     float ageInTicks, float netHeadYaw, float headPitch) {
+        if (!(model instanceof HumanoidModel humanoid)) {
+            return;
+        }
+        humanoid.young = entity.isBaby();
+        humanoid.crouching = entity.isCrouching();
+        humanoid.riding = entity.isPassenger();
+        humanoid.swimAmount = entity.getSwimAmount(partialTick);
+        humanoid.attackTime = entity.getAttackAnim(partialTick);
+        humanoid.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
     }
 
     /**
@@ -55,6 +82,9 @@ public final class ArmorClientExtensions implements IClientItemExtensions {
         if (!layer.dyeable()) {
             return 0xFFFFFFFF;
         }
-        return DyedItemColor.getOrDefault(stack, DEFAULT_CLOTH_COLOR);
+        // DYED_COLOR 组件只存 RGB（旧存档里的值更是没有 alpha），
+        // 而 renderToBuffer 要的是 ARGB —— 不补 0xFF 的话染色层整层透明，
+        // 表现为「染过色的护甲穿上后布料部分消失不见」
+        return 0xFF000000 | DyedItemColor.getOrDefault(stack, DEFAULT_CLOTH_COLOR);
     }
 }

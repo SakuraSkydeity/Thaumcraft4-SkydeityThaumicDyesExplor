@@ -1,0 +1,9 @@
+{
+  "parent": "thaumicdyesexplor:block/tx_jar",
+  "textures": {
+    "particle": "thaumicdyesexplor:block/jar_side_essentia_c",
+    "side": "thaumicdyesexplor:block/jar_side_essentia_c",
+    "top": "thaumicdyesexplor:block/jar_top_essentia_c",
+    "bottom": "thaumicdyesexplor:block/jar_bottom_essentia_c"
+  }
+}

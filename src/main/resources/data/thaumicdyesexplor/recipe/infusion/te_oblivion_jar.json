@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TE_MACHINES",
+  "central": {
+    "item": "thaumcraft:void_jar"
+  },
+  "components": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:oblivion_jar"
+  },
+  "instability": 6,
+  "aspects": {
+    "perditio": 32,
+    "vacuos": 16,
+    "praecantatio": 8
+  }
+}

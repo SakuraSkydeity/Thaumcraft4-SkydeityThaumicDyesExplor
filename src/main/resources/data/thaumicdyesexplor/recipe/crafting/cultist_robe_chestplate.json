@@ -1,15 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_robe_chestplate"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "aqua": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    "RGR"
   ],
+  "key": {
+    "R": {
+      "item": "thaumicdyesexplor:fabric_resource"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_robe_chestplate",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_robe_chestplate"
   }
 }

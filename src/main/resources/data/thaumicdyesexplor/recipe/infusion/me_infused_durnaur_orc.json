@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:iron_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_durnaur_orc"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:orchoth": 16,
+    "thaumicdyesexplor:mordor": 16,
+    "praecantatio": 8
+  }
+}

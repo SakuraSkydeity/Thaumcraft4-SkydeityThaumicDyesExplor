@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_material_ithildin_dwarven"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_nugget_ithildin_dwarven",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ROD_AMBER",
+  "vis": {
+    "ordo": 25
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:thaumic_charm"
+    },
+    "G": {
+      "item": "thaumicdyesexplor:amber_core"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:amber_staff_core"
+  }
+}

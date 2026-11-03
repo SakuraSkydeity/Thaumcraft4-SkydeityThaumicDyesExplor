@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "terra": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "R R",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "thaumicdyesexplor:fabric_resource"
+    }
+  },
+  "result": {
+    "id": "thaumcraft:cultist_boots"
+  }
+}

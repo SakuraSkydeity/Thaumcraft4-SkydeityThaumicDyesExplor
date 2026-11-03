@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:lime_banner"
+    },
+    {
+      "item": "minecraft:oak_log"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_galadhrim"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:lothlorien": 24,
+    "praecantatio": 8
+  }
+}

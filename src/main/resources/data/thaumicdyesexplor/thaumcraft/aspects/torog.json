@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:torog",
+  "color": "#492b22",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:tenebrae"
+  ],
+  "natural_generation_weight": 771
+}

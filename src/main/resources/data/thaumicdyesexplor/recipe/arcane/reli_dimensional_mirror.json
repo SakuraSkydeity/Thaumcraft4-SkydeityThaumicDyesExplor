@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_TOMES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_dimensional_mirror"
+  },
+  "vis": {
+    "aer": 40,
+    "perditio": 20
+  }
+}

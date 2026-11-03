@@ -5,6 +5,12 @@
       "icon": "thaumicdyesexplor:textures/misc/r_dyepath.png",
       "background": "thaumcraft:textures/gui/gui_researchback.png",
       "sort_order": 6
+    },
+    {
+      "key": "thaumicdyesexplor:MERELIC",
+      "icon": "thaumicdyesexplor:textures/misc/r_merelic.png",
+      "background": "thaumcraft:textures/gui/gui_researchback.png",
+      "sort_order": 7
     }
   ],
   "entries": [
@@ -128,6 +134,38 @@
           "compound_blueprint": "",
           "recipe_link_policy": "DISABLED",
           "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ARMORSETS.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/mask_grinning_devil",
+            "thaumicdyesexplor:infusion/mask_angry_ghost",
+            "thaumicdyesexplor:infusion/mask_sipping_fiend"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/iron_mask_grinning_devil",
+            "thaumicdyesexplor:infusion/iron_mask_angry_ghost",
+            "thaumicdyesexplor:infusion/iron_mask_sipping_fiend"
+          ]
         }
       ]
     },
@@ -181,16 +219,6 @@
           "recipe_link_policy": "DISABLED",
           "recipe_ids": [
             "thaumicdyesexplor:crafting/cultist_robe_chestplate"
-          ]
-        },
-        {
-          "type": "NORMAL_CRAFTING",
-          "value": "",
-          "aspects": {},
-          "compound_blueprint": "",
-          "recipe_link_policy": "DISABLED",
-          "recipe_ids": [
-            "thaumicdyesexplor:crafting/iron_fortress_helmet"
           ]
         },
         {
@@ -426,6 +454,22 @@
           "recipe_ids": []
         },
         {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICUPGRADE.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RUNICUPGRADE.4",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
           "type": "INFUSION_CRAFTING",
           "value": "",
           "aspects": {},
@@ -440,6 +484,106 @@
             "thaumicdyesexplor:infusion/runic_primal_chestplate",
             "thaumicdyesexplor:infusion/runic_primal_leggings",
             "thaumicdyesexplor:infusion/runic_primal_boots"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_1"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_2"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_3"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_4"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_5"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_6"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_7"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_8"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_9"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/runic_upgrade_10"
           ]
         }
       ]
@@ -588,11 +732,10 @@
           "compound_blueprint": "",
           "recipe_link_policy": "DISABLED",
           "recipe_ids": [
-            "thaumicdyesexplor:infusion/discount_ring",
             "thaumicdyesexplor:infusion/stabilizer_belt",
             "thaumicdyesexplor:infusion/talisman_food",
             "thaumicdyesexplor:infusion/tentacle_ring",
-            "thaumicdyesexplor:infusion/charm_no_taint",
+            "thaumicdyesexplor:infusion/charm_taint",
             "thaumicdyesexplor:infusion/charm_taint"
           ]
         }
@@ -962,6 +1105,941 @@
           "recipe_link_policy": "DISABLED",
           "recipe_ids": [
             "thaumicdyesexplor:infusion/pure_zombie_brain"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:MERELIC_ROOT",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 0,
+      "display_row": 1,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_arcanum"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK",
+        "ROUND"
+      ],
+      "parents": [],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.MERELIC_ROOT.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.MERELIC_ROOT.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RELI_TOMES",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 1,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_fate_tome"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:MERELIC_ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_TOMES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_TOMES.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_TOMES.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_TOMES.4",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_missile_tome",
+            "thaumicdyesexplor:arcane/reli_crimson_spell",
+            "thaumicdyesexplor:arcane/reli_eldritch_spell",
+            "thaumicdyesexplor:arcane/reli_ghastly_skull"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_lunar_flares",
+            "thaumicdyesexplor:arcane/reli_chaos_tome",
+            "thaumicdyesexplor:arcane/reli_soul_tome",
+            "thaumicdyesexplor:arcane/reli_void_grimoire"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_thunderpeal",
+            "thaumicdyesexplor:arcane/reli_teleportation_tome",
+            "thaumicdyesexplor:arcane/reli_dimensional_mirror",
+            "thaumicdyesexplor:arcane/reli_apotheosis"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_fate_tome",
+            "thaumicdyesexplor:arcane/reli_telekinesis_tome",
+            "thaumicdyesexplor:arcane/reli_obelisk_drainer"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RELI_VIS",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_arcanum"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RELI_TOMES"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_VIS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_VIS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_arcanum",
+            "thaumicdyesexplor:arcane/reli_omega_core",
+            "thaumicdyesexplor:arcane/reli_oblivion_stone",
+            "thaumicdyesexplor:arcane/reli_xp_tome"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RELI_BAUBLES",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 3,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_deific_amulet"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RELI_VIS"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_BAUBLES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_BAUBLES.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_BAUBLES.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_BAUBLES.4",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_dark_sun_ring",
+            "thaumicdyesexplor:arcane/reli_superposition_ring",
+            "thaumicdyesexplor:arcane/reli_shiny_stone"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_deific_amulet",
+            "thaumicdyesexplor:arcane/reli_oblivion_amulet",
+            "thaumicdyesexplor:arcane/reli_discord_ring"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_ancient_aegis",
+            "thaumicdyesexplor:arcane/reli_mining_charm",
+            "thaumicdyesexplor:arcane/reli_advanced_mining_charm"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RELI_WEAPONS",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 4,
+      "display_row": 2,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_terror_crown"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RELI_BAUBLES"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_WEAPONS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_paradox",
+            "thaumicdyesexplor:arcane/reli_wastelayer",
+            "thaumicdyesexplor:arcane/reli_terror_crown"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ME_MATERIALS",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 1,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:me_material_stared_mithril"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:MERELIC_ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_MATERIALS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_MATERIALS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_infused_stared_mithril",
+            "thaumicdyesexplor:infusion/me_infused_ithildin_dwarven",
+            "thaumicdyesexplor:infusion/me_infused_ithildin_blue_dwarven",
+            "thaumicdyesexplor:infusion/me_infused_edhelmir_elven"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_infused_durnaur_orc",
+            "thaumicdyesexplor:infusion/me_infused_gulduril_uruk",
+            "thaumicdyesexplor:infusion/me_infused_gulduril_black_uruk"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_infused_daedelos_galvorn",
+            "thaumicdyesexplor:infusion/me_infused_daedelos_morgul",
+            "thaumicdyesexplor:infusion/me_infused_brighten_gildediron"
+          ]
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/me_nugget_stared_mithril",
+            "thaumicdyesexplor:crafting/me_ingot_stared_mithril",
+            "thaumicdyesexplor:crafting/me_storage_stared_mithril"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ME_WANDS",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:me_wand_core_gondor"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ME_MATERIALS"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_WANDS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_WANDS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_WANDS.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_WANDS.4",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_rod_gondor",
+            "thaumicdyesexplor:infusion/me_rod_dwarf",
+            "thaumicdyesexplor:infusion/me_rod_high_elf"
+          ]
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/me_wand_cap_mithril",
+            "thaumicdyesexplor:crafting/me_wand_cap_galvorn",
+            "thaumicdyesexplor:crafting/me_wand_cap_dwarvensteel"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/me_staff_core_gondor",
+            "thaumicdyesexplor:arcane/me_staff_core_dwarf",
+            "thaumicdyesexplor:arcane/me_staff_core_high_elf"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ME_JARS",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 3,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:me_extreme_essentia_jar"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ME_WANDS"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_JARS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_JARS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_JARS.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "NORMAL_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/me_jar_binder",
+            "thaumicdyesexplor:crafting/me_jar_binder_advanced"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:crafting/me_compressed_essentia_jar",
+            "thaumicdyesexplor:crafting/me_x2_compressed_essentia_jar",
+            "thaumicdyesexplor:crafting/me_extreme_essentia_jar"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_extreme_jar_cap"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ME_SUMMON",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 4,
+      "display_row": 0,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:me_focus_bedrock_remover"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ME_JARS"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_SUMMON.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ME_SUMMON.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/me_focus_bedrock_remover",
+            "thaumicdyesexplor:infusion/me_ring_warpward"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:RELI_ODDITIES",
+      "category": "thaumicdyesexplor:MERELIC",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": 3,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:reli_false_justice"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:RELI_TOMES"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_ODDITIES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_ODDITIES.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.RELI_ODDITIES.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_chaos_core",
+            "thaumicdyesexplor:arcane/reli_false_justice",
+            "thaumicdyesexplor:arcane/reli_weather_stone"
+          ]
+        },
+        {
+          "type": "ARCANE_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": [
+            "thaumicdyesexplor:arcane/reli_overthrower",
+            "thaumicdyesexplor:arcane/reli_dormant_arcanum"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:ENCHANTS",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 0,
+      "display_row": 4,
+      "complexity": 1,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "minecraft:enchanted_book"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ENCHANTS.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.ENCHANTS.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/enchant_binding_book"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/enchant_disarm_book"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/enchant_night_vision_book"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thaumicdyesexplor:TE_MACHINES",
+      "category": "thaumicdyesexplor:TDE",
+      "aspects": {},
+      "display_column": 2,
+      "display_row": 4,
+      "complexity": 2,
+      "icon": {
+        "type": "STACK",
+        "stack": {
+          "id": "thaumicdyesexplor:everfull_urn"
+        }
+      },
+      "flags": [
+        "AUTO_UNLOCK"
+      ],
+      "parents": [
+        "thaumicdyesexplor:ROOT"
+      ],
+      "hidden_parents": [],
+      "siblings": [],
+      "object_triggers": [],
+      "entity_triggers": [],
+      "aspect_triggers": [],
+      "warp": 0,
+      "pages": [
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.TE_MACHINES.1",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.TE_MACHINES.2",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "TEXT",
+          "value": "thaumicdyesexplor.research_page.TE_MACHINES.3",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "DISABLED",
+          "recipe_ids": []
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/te_everfull_urn"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/te_oblivion_jar"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/te_think_tank"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/te_crucible_of_souls"
+          ]
+        },
+        {
+          "type": "INFUSION_CRAFTING",
+          "value": "",
+          "aspects": {},
+          "compound_blueprint": "",
+          "recipe_link_policy": "COMPLETED_SINGLE",
+          "recipe_ids": [
+            "thaumicdyesexplor:infusion/te_replicator"
           ]
         }
       ]

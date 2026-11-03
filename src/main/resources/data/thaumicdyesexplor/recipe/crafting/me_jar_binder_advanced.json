@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SXS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:emerald"
+    },
+    "X": {
+      "item": "thaumicdyesexplor:me_jar_binder"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_jar_binder_advanced"
+  }
+}

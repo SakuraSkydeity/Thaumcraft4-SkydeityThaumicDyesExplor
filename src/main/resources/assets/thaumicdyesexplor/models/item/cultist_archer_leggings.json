@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "thaumicdyesexplor:item/crimrobelegs"
+    "layer0": "thaumicdyesexplor:item/cultistplatelegs"
   }
 }

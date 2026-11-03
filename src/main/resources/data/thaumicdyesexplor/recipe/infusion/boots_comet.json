@@ -2,29 +2,33 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:TRAVELLERBOOTS",
   "central": {
-    "item": "thaumicdyesexplor:boots_meteor"
+    "item": "thaumcraft:boots_of_the_traveller"
   },
   "components": [
     {
-      "item": "minecraft:packed_ice"
+      "item": "thaumcraft:water_crystal_cluster"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:snow_block"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:snow_block"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "thaumcraft:focus_frost"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:boots_comet"
   },
-  "instability": 5,
+  "instability": 4,
   "aspects": {
-    "gelum": 32,
-    "aqua": 16,
-    "motus": 8
+    "aqua": 25,
+    "gelum": 25,
+    "iter": 25,
+    "motus": 25
   }
 }

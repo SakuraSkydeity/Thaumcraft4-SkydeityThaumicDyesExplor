@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_storage_daedelos_galvorn"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_daedelos_galvorn",
+    "count": 9
+  }
+}

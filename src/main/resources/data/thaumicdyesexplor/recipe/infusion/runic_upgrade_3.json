@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    },
+    {
+      "item": "thaumcraft:air_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 3
+  },
+  "instability": 6,
+  "aspects": {
+    "tutamen": 40,
+    "praecantatio": 60,
+    "aer": 80,
+    "motus": 40
+  }
+}

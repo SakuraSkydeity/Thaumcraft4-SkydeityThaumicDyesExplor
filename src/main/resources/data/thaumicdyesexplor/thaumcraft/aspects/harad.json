@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:harad",
+  "color": "#ed310b",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:ignis"
+  ],
+  "natural_generation_weight": 1
+}

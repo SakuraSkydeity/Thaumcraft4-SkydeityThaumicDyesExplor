@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:draugol",
+  "color": "#605341",
+  "components": [
+    "thaumcraft:bestia",
+    "thaumcraft:telum"
+  ],
+  "natural_generation_weight": 771
+}

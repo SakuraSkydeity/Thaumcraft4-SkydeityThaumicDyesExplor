@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "P",
-    "N",
-    "P"
+    " X ",
+    "XZX",
+    " X "
   ],
   "key": {
-    "P": {
-      "item": "minecraft:paper"
+    "X": {
+      "item": "thaumcraft:magic_tallow"
     },
-    "N": {
-      "item": "minecraft:gold_nugget"
+    "Z": {
+      "tag": "c:dyes"
     }
   },
   "result": {
-    "id": "thaumicdyesexplor:blank_seal",
-    "count": 1
+    "id": "thaumicdyesexplor:blank_seal"
   }
 }

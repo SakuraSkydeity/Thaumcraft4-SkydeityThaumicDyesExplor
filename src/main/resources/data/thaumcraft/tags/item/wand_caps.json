@@ -2,6 +2,16 @@
   "replace": false,
   "values": [
     "thaumicdyesexplor:sojourner_cap",
-    "thaumicdyesexplor:mechanist_cap"
+    "thaumicdyesexplor:mechanist_cap",
+    "thaumicdyesexplor:me_wand_cap_mithril",
+    "thaumicdyesexplor:me_wand_cap_orcsteel",
+    "thaumicdyesexplor:me_wand_cap_dwarvensteel",
+    "thaumicdyesexplor:me_wand_cap_galvorn",
+    "thaumicdyesexplor:me_wand_cap_uruksteel",
+    "thaumicdyesexplor:me_wand_cap_morgulsteel",
+    "thaumicdyesexplor:me_wand_cap_bluedwarvensteel",
+    "thaumicdyesexplor:me_wand_cap_blackuruksteel",
+    "thaumicdyesexplor:me_wand_cap_elvensteel",
+    "thaumicdyesexplor:me_wand_cap_gildediron"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "thaumicdyesexplor:taurethrim",
+  "color": "#1d6038",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:arbor"
+  ],
+  "natural_generation_weight": 1,
+  "texture": "thaumicdyesexplor:textures/aspects/taurethrim.png"
+}

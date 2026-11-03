@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:isengard",
+  "color": "#353434",
+  "components": [
+    "thaumicdyesexplor:mornogol",
+    "thaumcraft:praecantatio"
+  ],
+  "natural_generation_weight": 1
+}

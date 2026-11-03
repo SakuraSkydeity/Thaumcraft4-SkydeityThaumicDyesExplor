@@ -2,14 +2,11 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:ROD_AMBER",
   "central": {
-    "item": "thaumcraft:greatwood_wand_rod"
+    "item": "thaumcraft:amber_block"
   },
   "components": [
     {
-      "item": "thaumcraft:amber"
-    },
-    {
-      "item": "thaumcraft:amber"
+      "item": "thaumcraft:salis_mundus"
     },
     {
       "item": "thaumcraft:salis_mundus"

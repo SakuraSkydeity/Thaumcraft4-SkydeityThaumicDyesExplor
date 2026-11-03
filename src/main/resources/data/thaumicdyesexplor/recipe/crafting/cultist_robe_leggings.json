@@ -1,15 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_robe_leggings"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "aqua": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "RGR",
+    "RIR",
+    "R R"
   ],
+  "key": {
+    "R": {
+      "item": "thaumicdyesexplor:fabric_resource"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_robe_leggings",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_robe_leggings"
   }
 }

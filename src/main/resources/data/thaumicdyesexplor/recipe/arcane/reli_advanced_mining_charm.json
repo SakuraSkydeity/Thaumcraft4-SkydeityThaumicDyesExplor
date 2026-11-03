@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_BAUBLES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "B": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_advanced_mining_charm"
+  },
+  "vis": {
+    "terra": 40,
+    "ordo": 20
+  }
+}

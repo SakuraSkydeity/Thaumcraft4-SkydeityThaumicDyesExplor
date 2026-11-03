@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_storage_brighten_gildediron"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_brighten_gildediron",
+    "count": 9
+  }
+}

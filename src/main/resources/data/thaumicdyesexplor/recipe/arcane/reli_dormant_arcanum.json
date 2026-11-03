@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_ODDITIES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_dormant_arcanum"
+  },
+  "vis": {
+    "ordo": 30,
+    "perditio": 25
+  }
+}

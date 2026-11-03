@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TE_MACHINES",
+  "central": {
+    "item": "thaumcraft:brain_jar"
+  },
+  "components": [
+    {
+      "item": "minecraft:bookshelf"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:think_tank"
+  },
+  "instability": 6,
+  "aspects": {
+    "cognitio": 32,
+    "spiritus": 16,
+    "praecantatio": 16
+  }
+}

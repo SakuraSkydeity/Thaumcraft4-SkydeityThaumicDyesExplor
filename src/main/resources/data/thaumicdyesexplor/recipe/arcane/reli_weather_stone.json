@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_ODDITIES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:stone"
+    },
+    "B": {
+      "item": "minecraft:snowball"
+    },
+    "C": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_weather_stone"
+  },
+  "vis": {
+    "aer": 30,
+    "aqua": 30
+  }
+}

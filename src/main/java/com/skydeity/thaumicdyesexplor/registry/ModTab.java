@@ -3,12 +3,15 @@ package com.skydeity.thaumicdyesexplor.registry;
 import java.util.List;
 
 import com.skydeity.thaumicdyesexplor.ThaumicDyesExplor;
+import com.skydeity.thaumicdyesexplor.registry.ModBlocks;
+import com.skydeity.thaumicdyesexplor.registry.ModMeItems;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -54,6 +57,10 @@ public final class ModTab {
     /** 创造栏图标：嬗变杖杆 + 旅者杖端的成品法杖。 */
     private static final WandPreset ICON_WAND = WAND_PRESETS.get(4);
 
+    /** 「中土遗物」页图标：魔多杖柄 + 镶金铁杖端（第 20 轮用户指定）。 */
+    private static final String MIDDLE_EARTH_ICON_ROD = "me_mordor";
+    private static final String MIDDLE_EARTH_ICON_CAP = "me_gildediron";
+
     public static final java.util.function.Supplier<CreativeModeTab> MAIN = TABS.register("main",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.thaumicdyesexplor"))
@@ -61,6 +68,9 @@ public final class ModTab {
                     .displayItems((params, output) -> {
                         ModItems.ITEMS.getEntries().forEach(entry -> {
                             Item item = entry.get();
+                            if (isRelicOrMe(entry.getKey().location().getPath())) {
+                                return; // 遗物与中洲物品在第 13 轮后移到独立的「中土遗物神秘学」页
+                            }
                             output.accept(item);
                         });
                         // 成品法杖放在最后，避免把「部件」和「成品」混在一起
@@ -72,6 +82,32 @@ public final class ModTab {
                         }
                     })
                     .build());
+
+    /** 「中土遗物神秘学」：Forgotten Relics（reli_）与 MiddleEarth-Thaumaturgy（me_）专属页。 */
+    public static final java.util.function.Supplier<CreativeModeTab> MIDDLE_EARTH = TABS.register("middle_earth",
+            () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.thaumicdyesexplor.middle_earth"))
+                    // 图标用「刚铎杖柄 + 秘银杖端」现场装出来的成品法杖（第 19 轮：原来放的是锭，
+                    // 和这一页「中土遗物」的主题不搭）
+                    .icon(ModTab::middleEarthIcon)
+                    .displayItems((params, output) -> {
+                        ModItems.ITEMS.getEntries().forEach(entry -> {
+                            if (isRelicOrMe(entry.getKey().location().getPath())) {
+                                output.accept(entry.get());
+                            }
+                        });
+                        // ME 的方块（罐子/存储块）——TE 的五个功能方块属于染途学，留在主页面
+                        ModBlocks.BLOCKS.getEntries().forEach(entry -> {
+                            if (entry.getKey().location().getPath().startsWith("me_")) {
+                                output.accept(entry.get().asItem());
+                            }
+                        });
+                    })
+                    .build());
+
+    private static boolean isRelicOrMe(String path) {
+        return path.startsWith("reli_") || path.startsWith("me_");
+    }
 
     /**
      * 现场装配一把满充能的法杖。
@@ -99,6 +135,29 @@ public final class ModTab {
     private static ItemStack iconStack() {
         ItemStack stack = assemble(ICON_WAND);
         return stack != null ? stack : new ItemStack(ModItems.RUNIC_GOGGLES.get());
+    }
+
+    /**
+     * 「中土遗物」页的图标法杖。
+     *
+     * <p>装配失败（数据包没加载到部件 datamap）时退回原来的秘银锭，保证标签页永远有图标，
+     * 不会因为 {@code WandApi.createFullyCharged} 抛异常把整个创造栏带崩。</p>
+     */
+    private static ItemStack middleEarthIcon() {
+        ItemStack stack = assembleRaw(MIDDLE_EARTH_ICON_ROD, MIDDLE_EARTH_ICON_CAP);
+        return stack != null ? stack : new ItemStack(ModMeItems.INGOTS.get(5).get());
+    }
+
+    /** 装一把无名、满充能的法杖；失败返回 {@code null}。 */
+    private static ItemStack assembleRaw(String rod, String cap) {
+        try {
+            return dev.tc4port.thaumcraft.api.wand.WandApi.createFullyCharged(
+                    dev.tc4port.thaumcraft.api.wand.WandMaterialId.of(id(rod)),
+                    dev.tc4port.thaumcraft.api.wand.WandMaterialId.of(id(cap)));
+        } catch (RuntimeException exception) {
+            ThaumicDyesExplor.LOGGER.warn("无法装配创造栏图标法杖 {} + {}: {}", rod, cap, exception.toString());
+            return null;
+        }
     }
 
     private static ResourceLocation id(String path) {

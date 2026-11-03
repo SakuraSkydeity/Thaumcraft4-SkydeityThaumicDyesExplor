@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:TE_MACHINES",
+  "central": {
+    "item": "minecraft:iron_block"
+  },
+  "components": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:replicator"
+  },
+  "instability": 8,
+  "aspects": {
+    "permutatio": 32,
+    "praecantatio": 32,
+    "fabrico": 24
+  }
+}

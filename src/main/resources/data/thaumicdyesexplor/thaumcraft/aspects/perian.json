@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:perian",
+  "color": "#ed6136",
+  "components": [
+    "thaumcraft:humanus",
+    "thaumcraft:sensus"
+  ],
+  "natural_generation_weight": 1
+}

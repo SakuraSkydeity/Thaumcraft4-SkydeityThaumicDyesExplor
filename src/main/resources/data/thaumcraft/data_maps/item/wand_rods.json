@@ -43,6 +43,328 @@
       "texture": "thaumicdyesexplor:textures/models/rod_necro.png",
       "runes": true,
       "order": 105
+    },
+    "thaumicdyesexplor:me_wand_core_gondor": {
+      "material": "thaumicdyesexplor:me_gondor",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_gondor.png",
+      "order": 200
+    },
+    "thaumicdyesexplor:me_staff_core_gondor": {
+      "material": "thaumicdyesexplor:me_gondor_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_gondor.png",
+      "order": 201
+    },
+    "thaumicdyesexplor:me_wand_core_hobbit": {
+      "material": "thaumicdyesexplor:me_hobbit",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_hobbit.png",
+      "order": 202
+    },
+    "thaumicdyesexplor:me_staff_core_hobbit": {
+      "material": "thaumicdyesexplor:me_hobbit_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_hobbit.png",
+      "order": 203
+    },
+    "thaumicdyesexplor:me_wand_core_ranger_north": {
+      "material": "thaumicdyesexplor:me_ranger_north",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_ranger_north.png",
+      "order": 204
+    },
+    "thaumicdyesexplor:me_staff_core_ranger_north": {
+      "material": "thaumicdyesexplor:me_ranger_north_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_ranger_north.png",
+      "order": 205
+    },
+    "thaumicdyesexplor:me_wand_core_blue_mountains": {
+      "material": "thaumicdyesexplor:me_blue_mountains",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_blue_mountains.png",
+      "order": 206
+    },
+    "thaumicdyesexplor:me_staff_core_blue_mountains": {
+      "material": "thaumicdyesexplor:me_blue_mountains_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_blue_mountains.png",
+      "order": 207
+    },
+    "thaumicdyesexplor:me_wand_core_high_elf": {
+      "material": "thaumicdyesexplor:me_high_elf",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_high_elf.png",
+      "order": 208
+    },
+    "thaumicdyesexplor:me_staff_core_high_elf": {
+      "material": "thaumicdyesexplor:me_high_elf_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_high_elf.png",
+      "order": 209
+    },
+    "thaumicdyesexplor:me_wand_core_gundabad": {
+      "material": "thaumicdyesexplor:me_gundabad",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_gundabad.png",
+      "order": 210
+    },
+    "thaumicdyesexplor:me_staff_core_gundabad": {
+      "material": "thaumicdyesexplor:me_gundabad_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_gundabad.png",
+      "order": 211
+    },
+    "thaumicdyesexplor:me_wand_core_angmar": {
+      "material": "thaumicdyesexplor:me_angmar",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_angmar.png",
+      "order": 212
+    },
+    "thaumicdyesexplor:me_staff_core_angmar": {
+      "material": "thaumicdyesexplor:me_angmar_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_angmar.png",
+      "order": 213
+    },
+    "thaumicdyesexplor:me_wand_core_wood_elf": {
+      "material": "thaumicdyesexplor:me_wood_elf",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_wood_elf.png",
+      "order": 214
+    },
+    "thaumicdyesexplor:me_staff_core_wood_elf": {
+      "material": "thaumicdyesexplor:me_wood_elf_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_wood_elf.png",
+      "order": 215
+    },
+    "thaumicdyesexplor:me_wand_core_dol_guldur": {
+      "material": "thaumicdyesexplor:me_dol_guldur",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dol_guldur.png",
+      "order": 216
+    },
+    "thaumicdyesexplor:me_staff_core_dol_guldur": {
+      "material": "thaumicdyesexplor:me_dol_guldur_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dol_guldur.png",
+      "order": 217
+    },
+    "thaumicdyesexplor:me_wand_core_dale": {
+      "material": "thaumicdyesexplor:me_dale",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dale.png",
+      "order": 218
+    },
+    "thaumicdyesexplor:me_staff_core_dale": {
+      "material": "thaumicdyesexplor:me_dale_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dale.png",
+      "order": 219
+    },
+    "thaumicdyesexplor:me_wand_core_dwarf": {
+      "material": "thaumicdyesexplor:me_dwarf",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dwarf.png",
+      "order": 220
+    },
+    "thaumicdyesexplor:me_staff_core_dwarf": {
+      "material": "thaumicdyesexplor:me_dwarf_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dwarf.png",
+      "order": 221
+    },
+    "thaumicdyesexplor:me_wand_core_galadhrim": {
+      "material": "thaumicdyesexplor:me_galadhrim",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_galadhrim.png",
+      "order": 222
+    },
+    "thaumicdyesexplor:me_staff_core_galadhrim": {
+      "material": "thaumicdyesexplor:me_galadhrim_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_galadhrim.png",
+      "order": 223
+    },
+    "thaumicdyesexplor:me_wand_core_dunland": {
+      "material": "thaumicdyesexplor:me_dunland",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dunland.png",
+      "order": 224
+    },
+    "thaumicdyesexplor:me_staff_core_dunland": {
+      "material": "thaumicdyesexplor:me_dunland_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dunland.png",
+      "order": 225
+    },
+    "thaumicdyesexplor:me_wand_core_uruk_hai": {
+      "material": "thaumicdyesexplor:me_uruk_hai",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_uruk_hai.png",
+      "order": 226
+    },
+    "thaumicdyesexplor:me_staff_core_uruk_hai": {
+      "material": "thaumicdyesexplor:me_uruk_hai_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_uruk_hai.png",
+      "order": 227
+    },
+    "thaumicdyesexplor:me_wand_core_fangorn": {
+      "material": "thaumicdyesexplor:me_fangorn",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_fangorn.png",
+      "order": 228
+    },
+    "thaumicdyesexplor:me_staff_core_fangorn": {
+      "material": "thaumicdyesexplor:me_fangorn_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_fangorn.png",
+      "order": 229
+    },
+    "thaumicdyesexplor:me_wand_core_rohan": {
+      "material": "thaumicdyesexplor:me_rohan",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_rohan.png",
+      "order": 230
+    },
+    "thaumicdyesexplor:me_staff_core_rohan": {
+      "material": "thaumicdyesexplor:me_rohan_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_rohan.png",
+      "order": 231
+    },
+    "thaumicdyesexplor:me_wand_core_mordor": {
+      "material": "thaumicdyesexplor:me_mordor",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_mordor.png",
+      "order": 232
+    },
+    "thaumicdyesexplor:me_staff_core_mordor": {
+      "material": "thaumicdyesexplor:me_mordor_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_mordor.png",
+      "order": 233
+    },
+    "thaumicdyesexplor:me_wand_core_dorwinion": {
+      "material": "thaumicdyesexplor:me_dorwinion",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dorwinion.png",
+      "order": 234
+    },
+    "thaumicdyesexplor:me_staff_core_dorwinion": {
+      "material": "thaumicdyesexplor:me_dorwinion_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_dorwinion.png",
+      "order": 235
+    },
+    "thaumicdyesexplor:me_wand_core_rhun": {
+      "material": "thaumicdyesexplor:me_rhun",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_rhun.png",
+      "order": 236
+    },
+    "thaumicdyesexplor:me_staff_core_rhun": {
+      "material": "thaumicdyesexplor:me_rhun_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_rhun.png",
+      "order": 237
+    },
+    "thaumicdyesexplor:me_wand_core_near_harad": {
+      "material": "thaumicdyesexplor:me_near_harad",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_near_harad.png",
+      "order": 238
+    },
+    "thaumicdyesexplor:me_staff_core_near_harad": {
+      "material": "thaumicdyesexplor:me_near_harad_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_near_harad.png",
+      "order": 239
+    },
+    "thaumicdyesexplor:me_wand_core_moredain": {
+      "material": "thaumicdyesexplor:me_moredain",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_moredain.png",
+      "order": 240
+    },
+    "thaumicdyesexplor:me_staff_core_moredain": {
+      "material": "thaumicdyesexplor:me_moredain_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_moredain.png",
+      "order": 241
+    },
+    "thaumicdyesexplor:me_wand_core_tauredain": {
+      "material": "thaumicdyesexplor:me_tauredain",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_tauredain.png",
+      "order": 242
+    },
+    "thaumicdyesexplor:me_staff_core_tauredain": {
+      "material": "thaumicdyesexplor:me_tauredain_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_tauredain.png",
+      "order": 243
+    },
+    "thaumicdyesexplor:me_wand_core_half_troll": {
+      "material": "thaumicdyesexplor:me_half_troll",
+      "capacity": 100,
+      "craft_cost": 12,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_half_troll.png",
+      "order": 244
+    },
+    "thaumicdyesexplor:me_staff_core_half_troll": {
+      "material": "thaumicdyesexplor:me_half_troll_staff",
+      "capacity": 250,
+      "craft_cost": 15,
+      "texture": "thaumicdyesexplor:textures/models/me_wand_rod_half_troll.png",
+      "order": 245
     }
   }
 }

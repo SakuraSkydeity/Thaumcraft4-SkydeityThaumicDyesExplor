@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:gundabad",
+  "color": "#a87443",
+  "components": [
+    "thaumicdyesexplor:orchoth",
+    "thaumcraft:venenum"
+  ],
+  "natural_generation_weight": 1
+}

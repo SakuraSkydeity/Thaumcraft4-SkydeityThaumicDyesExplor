@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:brown_banner"
+    },
+    {
+      "item": "minecraft:mud_bricks"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_moredain"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:morwaith": 24,
+    "praecantatio": 8
+  }
+}

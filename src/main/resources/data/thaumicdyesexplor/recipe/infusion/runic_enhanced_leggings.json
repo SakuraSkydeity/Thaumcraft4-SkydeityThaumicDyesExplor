@@ -21,10 +21,10 @@
       "item": "minecraft:nether_star"
     },
     {
-      "item": "thaumcraft:entropy_shard"
+      "item": "thaumcraft:balanced_shard"
     },
     {
-      "item": "thaumcraft:salis_mundus"
+      "item": "thaumcraft:thaumic_charm"
     },
     {
       "item": "thaumcraft:amber"
@@ -35,7 +35,7 @@
   },
   "instability": 8,
   "aspects": {
-    "tutamen": 60,
+    "tutamen": 40,
     "praecantatio": 160,
     "potentia": 80,
     "alienis": 20,

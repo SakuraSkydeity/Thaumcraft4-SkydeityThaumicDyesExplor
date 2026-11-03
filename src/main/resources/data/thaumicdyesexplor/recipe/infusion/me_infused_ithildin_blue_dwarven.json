@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:iron_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_ithildin_blue_dwarven"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:nauglin": 16,
+    "thaumicdyesexplor:eredluin": 16,
+    "praecantatio": 8
+  }
+}

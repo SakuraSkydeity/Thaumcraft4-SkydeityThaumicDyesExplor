@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumicdyesexplor:item/me_staff_core_dorwinion"
+  }
+}

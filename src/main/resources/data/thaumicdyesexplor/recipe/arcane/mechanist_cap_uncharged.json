@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:CAP_MECHANIST",
+  "vis": {
+    "ignis": 6,
+    "perditio": 6,
+    "ordo": 6
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:mechanist_cap_uncharged"
+  }
+}

@@ -8,6 +8,8 @@
 将两个 1.7.10 TC4 附属模组迁移到 Minecraft 1.21.1 NeoForge（Thaumcraft 4R）：
 - [Thaumic-Dyes](https://github.com/KryptonCaptain/Thaumic-Dyes)（KryptonCaptain）
 - [Thaumic_Exploration](https://github.com/Flaxbeard/Thaumic_Exploration)（Flaxbeard）
+- [Forgotten Relics](https://github.com/jss2a98aj/Forgotten-Relics) `reli_` 前缀，36 件遗物（法书/戒指/护符/核心/悖论剑）
+- [MiddleEarth-Thaumaturgy](https://github.com/SOL3675/MiddleEarth-Thaumaturgy) `me_` 前缀，109 件物品（24 派系杖柄/杖芯、注入锭与粒）
 
 ## 前置依赖
 
@@ -21,9 +23,9 @@
   I/II/III/符文护目镜/符文旅者靴/旅者靴/古代面具/织物材料；Thaumic Exploration 的
   流星靴/彗星靴/水晶护甲/饰品/法杖核心/杖帽/封印/材料。
 - **要素（Aspect）**：通过 `data/thaumicdyesexplor/thaumcraft/object_aspects/definitions.json` 数据驱动注册。
-- **装备能力**：通过 `data/thaumicdyesexplor/data_maps/item/equipment_abilities.json` 声明
+- **装备能力**：通过 `data/thaumcraft/data_maps/item/equipment_abilities.json` 声明
   （符文护盾、护目镜揭示、旅者靴掉落减免、Vis 减免）。
-- **扭曲值**：`data/thaumicdyesexplor/data_maps/item/equipped_warp.json`。
+- **扭曲值**：`data/thaumcraft/data_maps/item/equipped_warp.json`。
 
 ## 目录结构
 

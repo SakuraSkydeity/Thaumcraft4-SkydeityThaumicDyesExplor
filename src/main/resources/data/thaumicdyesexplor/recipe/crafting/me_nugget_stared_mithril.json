@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_material_stared_mithril"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_nugget_stared_mithril",
+    "count": 9
+  }
+}

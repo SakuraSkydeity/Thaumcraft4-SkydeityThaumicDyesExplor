@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:abonnen",
+  "color": "#f2d18e",
+  "components": [
+    "thaumcraft:humanus",
+    "thaumcraft:lucrum"
+  ],
+  "natural_generation_weight": 1
+}

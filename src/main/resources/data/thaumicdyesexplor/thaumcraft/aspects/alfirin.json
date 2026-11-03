@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:alfirin",
+  "color": "#4bf4f4",
+  "components": [
+    "thaumcraft:permutatio",
+    "thaumcraft:praecantatio"
+  ],
+  "natural_generation_weight": 1
+}

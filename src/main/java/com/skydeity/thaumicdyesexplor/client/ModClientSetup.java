@@ -11,7 +11,10 @@ import com.skydeity.thaumicdyesexplor.item.SealColors;
 import com.skydeity.thaumicdyesexplor.item.SimpleArmorItem;
 import com.skydeity.thaumicdyesexplor.registry.ModItems;
 
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.DyedItemColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -50,10 +53,43 @@ public final class ModClientSetup {
         }
     }
 
-    /** 封印认染料颜色。 */
+    /**
+     * 物品图标染色：封印认染料颜色，<b>可染色护甲的图标也跟着染料走</b>。
+     *
+     * <p>1.7.10 的护甲图标是两遍渲染（{@code iconChest} 打底 + {@code iconChestOver} 乘染料色），
+     * 这里合并成一张图，所以必须自己把 {@code DYED_COLOR} 乘上去 —— 否则染完色的护甲在背包里
+     * 还是灰白图标（第 24 轮用户报的「染色后贴图不对」就是这个）。</p>
+     *
+     * <p>没有 {@code DYED_COLOR} 时返回 {@code -1}（= 不上色），保持贴图原样：
+     * 未染色的血腥游侠用的是已经画好红漆的图标，不能再乘一层默认色。</p>
+     */
     @SubscribeEvent
     public static void registerItemColors(RegisterColorHandlersEvent.Item event) {
         event.register((stack, tintIndex) -> SealColors.tint(stack), ModItems.BLANK_SEAL.get());
+        for (var entry : ModItems.ITEMS.getEntries()) {
+            if (entry.get() instanceof ArmorItem armor && hasClothLayer(armor)) {
+                event.register((stack, tintIndex) ->
+                        tintIndex == 0 ? 0xFF000000 | DyedItemColor.getOrDefault(stack, -1) : -1, armor);
+            }
+        }
+    }
+
+    /** 这套护甲是否有可染色的布料层（只有这类护甲的图标需要乘染料色）。 */
+    private static boolean hasClothLayer(ArmorItem item) {
+        for (ArmorMaterial.Layer layer : item.getMaterial().value().layers()) {
+            if (layer.dyeable()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /** 遗物弹丸的 billboard 渲染器。 */
+    @SubscribeEvent
+    public static void registerRenderers(net.neoforged.neoforge.client.event.EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(
+                com.skydeity.thaumicdyesexplor.registry.ModEntities.RELIC_PROJECTILE.get(),
+                RelicProjectileRenderer::new);
     }
 
     private ModClientSetup() {

@@ -1,0 +1,34 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ENCHANTS",
+  "central": {
+    "item": "minecraft:book"
+  },
+  "components": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "thaumicdyesexplor:night_vision": 1
+        }
+      }
+    }
+  },
+  "instability": 4,
+  "aspects": {
+    "sensus": 16,
+    "tenebrae": 16,
+    "praecantatio": 8
+  }
+}

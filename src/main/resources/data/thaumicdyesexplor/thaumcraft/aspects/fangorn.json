@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:fangorn",
+  "color": "#7dea59",
+  "components": [
+    "thaumicdyesexplor:onodrim",
+    "thaumcraft:arbor"
+  ],
+  "natural_generation_weight": 1
+}

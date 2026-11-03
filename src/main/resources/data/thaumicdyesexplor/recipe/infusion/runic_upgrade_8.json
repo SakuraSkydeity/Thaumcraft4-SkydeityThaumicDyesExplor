@@ -1,0 +1,38 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:RUNICUPGRADE",
+  "central": {
+    "tag": "thaumicdyesexplor:runic_upgradeable"
+  },
+  "components": [
+    {
+      "item": "thaumcraft:balanced_shard"
+    },
+    {
+      "item": "thaumcraft:water_shard"
+    },
+    {
+      "item": "thaumcraft:shimmerleaf"
+    },
+    {
+      "item": "thaumcraft:iron_golem_placer"
+    },
+    {
+      "item": "thaumcraft:shimmerleaf"
+    },
+    {
+      "item": "thaumcraft:earth_shard"
+    }
+  ],
+  "input_patch": {
+    "thaumicdyesexplor:runic_upgrade": 8
+  },
+  "instability": 6,
+  "aspects": {
+    "victus": 320,
+    "praecantatio": 64,
+    "humanus": 80,
+    "permutatio": 40,
+    "spiritus": 40
+  }
+}

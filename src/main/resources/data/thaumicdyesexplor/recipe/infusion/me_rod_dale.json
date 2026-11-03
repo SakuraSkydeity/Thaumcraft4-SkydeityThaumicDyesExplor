@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:yellow_banner"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_dale"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:dale": 24,
+    "praecantatio": 8
+  }
+}

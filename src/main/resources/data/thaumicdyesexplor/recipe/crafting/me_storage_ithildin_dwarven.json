@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "thaumicdyesexplor:me_material_ithildin_dwarven"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_storage_ithildin_dwarven",
+    "count": 1
+  }
+}

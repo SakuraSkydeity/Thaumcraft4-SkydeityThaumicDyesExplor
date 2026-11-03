@@ -1,0 +1,29 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ME_JARS",
+  "pattern": [
+    "SSS",
+    "SXS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "thaumicdyesexplor:me_compressed_essentia_jar"
+    },
+    "X": {
+      "item": "thaumicdyesexplor:me_jar_binder_advanced"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:me_x2_compressed_essentia_jar",
+    "count": 1
+  },
+  "vis": {
+    "aer": 80,
+    "ignis": 80,
+    "aqua": 80,
+    "terra": 80,
+    "ordo": 80,
+    "perditio": 80
+  }
+}

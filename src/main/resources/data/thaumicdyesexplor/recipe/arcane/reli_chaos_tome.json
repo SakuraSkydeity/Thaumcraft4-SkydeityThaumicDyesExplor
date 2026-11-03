@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_TOMES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_chaos_tome"
+  },
+  "vis": {
+    "perditio": 35,
+    "ignis": 15
+  }
+}

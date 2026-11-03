@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicdyesexplor:runic_helmet",
+    "thaumicdyesexplor:runic_chestplate",
+    "thaumicdyesexplor:runic_leggings",
+    "thaumicdyesexplor:runic_boots",
+    "thaumicdyesexplor:runic_goggles",
+    "thaumicdyesexplor:runic_enhanced_helmet",
+    "thaumicdyesexplor:runic_enhanced_chestplate",
+    "thaumicdyesexplor:runic_enhanced_leggings",
+    "thaumicdyesexplor:runic_enhanced_boots",
+    "thaumicdyesexplor:runic_primal_helmet",
+    "thaumicdyesexplor:runic_primal_chestplate",
+    "thaumicdyesexplor:runic_primal_leggings",
+    "thaumicdyesexplor:runic_primal_boots",
+    "thaumicdyesexplor:runic_boots_traveller"
+  ]
+}

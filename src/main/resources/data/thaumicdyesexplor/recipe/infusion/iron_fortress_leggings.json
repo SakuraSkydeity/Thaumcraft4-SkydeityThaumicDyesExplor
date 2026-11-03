@@ -1,0 +1,33 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ARMORMADE",
+  "central": {
+    "item": "minecraft:iron_leggings"
+  },
+  "components": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:iron_fortress_leggings"
+  },
+  "instability": 1,
+  "aspects": {
+    "tutamen": 8,
+    "metallum": 8,
+    "fabrico": 8
+  }
+}

@@ -79,7 +79,9 @@ public class ArmorDyeRecipe extends CustomRecipe {
             return ItemStack.EMPTY;
         }
         ItemStack result = armor.copyWithCount(1);
-        result.set(DataComponents.DYED_COLOR, new DyedItemColor(color & 0xFFFFFF, false));
+        // getTextureDiffuseColor 返回的是 ARGB（带 0xFF alpha），保留它 ——
+        // 抹掉 alpha 的话染色层在 HumanoidArmorLayer 里会整层透明
+        result.set(DataComponents.DYED_COLOR, new DyedItemColor(color, false));
         return result;
     }
 

@@ -1,0 +1,27 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_MATERIALS",
+  "central": {
+    "item": "minecraft:iron_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_material_daedelos_galvorn"
+  },
+  "instability": 5,
+  "aspects": {
+    "thaumicdyesexplor:edhel": 16,
+    "thaumicdyesexplor:nauglin": 16,
+    "praecantatio": 8
+  }
+}

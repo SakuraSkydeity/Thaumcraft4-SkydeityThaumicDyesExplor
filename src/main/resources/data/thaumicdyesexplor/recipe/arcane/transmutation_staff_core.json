@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ROD_TRANSMUTATION",
+  "vis": {
+    "ordo": 25
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "key": {
+    "S": {
+      "item": "thaumcraft:thaumic_charm"
+    },
+    "G": {
+      "item": "thaumicdyesexplor:transmutation_core"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:transmutation_staff_core"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_TOMES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_apotheosis"
+  },
+  "vis": {
+    "ordo": 40,
+    "terra": 20
+  }
+}

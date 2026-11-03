@@ -1,18 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_robe_chestplate"
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "aer": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "I I",
+    "RIR",
+    "IlI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
     },
-    {
+    "R": {
       "item": "thaumicdyesexplor:fabric_resource"
     },
-    {
-      "item": "minecraft:string"
+    "l": {
+      "item": "minecraft:leather"
     }
-  ],
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_archer_chestplate",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_archer_chestplate"
   }
 }

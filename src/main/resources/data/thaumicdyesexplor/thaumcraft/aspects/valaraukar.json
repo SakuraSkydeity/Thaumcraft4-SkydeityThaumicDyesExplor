@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:valaraukar",
+  "color": "#aa0606",
+  "components": [
+    "thaumicdyesexplor:alfirin",
+    "thaumcraft:alienis"
+  ],
+  "natural_generation_weight": 771
+}

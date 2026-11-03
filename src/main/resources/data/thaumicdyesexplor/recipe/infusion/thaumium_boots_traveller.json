@@ -2,28 +2,37 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:TRAVELLERBOOTS",
   "central": {
-    "item": "minecraft:leather_boots"
+    "item": "thaumcraft:boots_of_the_traveller"
   },
   "components": [
     {
-      "item": "thaumcraft:thaumium_ingot"
+      "item": "minecraft:leather"
     },
     {
-      "item": "thaumcraft:thaumium_ingot"
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:magic_tallow"
+    },
+    {
+      "item": "thaumcraft:salis_mundus"
     },
     {
       "item": "thaumcraft:enchanted_fabric"
     },
     {
-      "item": "minecraft:feather"
+      "item": "thaumcraft:enchanted_fabric"
     }
   ],
   "result": {
     "id": "thaumicdyesexplor:thaumium_boots_traveller"
   },
-  "instability": 2,
+  "instability": 4,
   "aspects": {
-    "iter": 25,
-    "praecantatio": 12
+    "metallum": 16,
+    "tutamen": 16,
+    "pannus": 16,
+    "praecantatio": 16,
+    "iter": 8
   }
 }

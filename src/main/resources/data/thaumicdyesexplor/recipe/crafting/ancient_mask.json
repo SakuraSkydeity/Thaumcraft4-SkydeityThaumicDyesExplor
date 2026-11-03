@@ -1,18 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "perditio": 60,
+    "ignis": 40,
+    "aer": 40
+  },
+  "pattern": [
+    "LVL",
+    "L L",
+    "EVE"
+  ],
+  "key": {
+    "L": {
       "item": "minecraft:leather"
     },
-    {
-      "item": "minecraft:bone"
+    "V": {
+      "item": "thaumcraft:void_ingot"
+    },
+    "E": {
+      "item": "thaumcraft:eldritch_object"
     }
-  ],
+  },
   "result": {
-    "id": "thaumicdyesexplor:ancient_mask",
-    "count": 1
+    "id": "thaumicdyesexplor:ancient_mask"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:dale",
+  "color": "#db9655",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumcraft:permutatio"
+  ],
+  "natural_generation_weight": 1
+}

@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
 
-import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.CubeDeformation;
@@ -20,13 +19,16 @@ import net.minecraft.client.model.geom.builders.PartDefinition;
  * 1.7.10 {@code ModelRenderer} 几何到 1.21.1 {@link ModelPart} 的最小等价映射。
  *
  * <p>源模组的护甲模型是在 {@code ModelBiped} 基础上追加自定义 {@code ModelRenderer}
- * 盒体（UV 按 128×64 的“模型单位”计算，贴图实际为 256×128）。1.21.1 的
- * {@link HumanoidModel#createMesh(CubeDeformation, float)} 提供同样的原版盒体布局，
- * 只要<b>用 (texWidth, texHeight) 烘焙</b>，UV 就会落在与 1.7.10 相同的像素位置。</p>
+ * 盒体（UV 按 128×64 的“模型单位”计算，贴图实际为 256×128），并在构造器结尾把
+ * 原版 biped 盒子全部 {@code cubeList.clear()} 掉。1.21.1 侧对应做法见 {@link #bake}：
+ * 七个原版顶层部件置空、只挂自定义子部件。</p>
  *
  * <p>每个 {@code ModelRenderer} 对应一个 {@link ModelPart}：盒体坐标相对该部件的
  * rotationPoint，旋转绕该点进行 —— 与 1.7.10 的 {@code setRotationPoint} /
  * {@code addBox} 语义一致。</p>
+ *
+ * <p>构造参数 {@code grow}（源模组 {@code super(f, ...)} 的膨胀量）在源模组里只作用于
+ * 被 clear 掉的原版盒子，对自定义盒子毫无影响 —— 这里同样<b>不</b>把它加到任何盒体上。</p>
  */
 public final class ArmorGeo {
 
@@ -47,11 +49,17 @@ public final class ArmorGeo {
     private final float grow;
     private final List<Cube> cubes;
 
+    /** 部件名 → 父部件名（构造时从 cubes 推导，供 {@link #resolve} 沿链定位）。 */
+    private final Map<String, String> parentOf = new HashMap<>();
+
     private ArmorGeo(int texWidth, int texHeight, float grow, List<Cube> cubes) {
         this.texWidth = texWidth;
         this.texHeight = texHeight;
         this.grow = grow;
         this.cubes = cubes;
+        for (Cube cube : cubes) {
+            this.parentOf.putIfAbsent(cube.part(), cube.parent());
+        }
     }
 
     public int texWidth() {
@@ -65,23 +73,37 @@ public final class ArmorGeo {
     /**
      * 烘焙成 {@code HumanoidModel} 需要的根部件。
      *
+     * <p><b>七个原版顶层部件全部置空（无盒体）</b>：源模组每个模型构造器的结尾都是一串
+     * {@code bipedXxx.cubeList.clear()} —— 原版头/身/四肢的盒子被整个删掉，只留自定义
+     * 子部件。这里不能图省事用 {@code HumanoidModel.createMesh(...)}（那会把原版盒子留下）：
+     * 原版盒子按 64×32 的 UV 布局采样，落到 128×64 的护甲贴图上就是一块块错位的杂色
+     * 盒体罩在身体外面 —— 第 25 轮用户报的「穿上身后模型不对」的另一半根因。
+     * 部件本身仍要存在（且 PartPose 与原版一致），否则 {@code HumanoidModel} 构造器取不到
+     * 部件、动画姿势也复制不过去。</p>
+     *
      * @param hidden 需要隐藏的部件名判定（源模组里由 NBT 开关的护目镜/面具/卷轴等）；
      *               传 {@code null} 表示全部显示
      * @return 根 {@link ModelPart}（已按本几何的纹理尺寸烘焙）
      */
     public ModelPart bake(Predicate<String> hidden) {
-        MeshDefinition mesh = HumanoidModel.createMesh(new CubeDeformation(this.grow), 0.0F);
+        // 与 HumanoidModel.createMesh(deformation, 0) 完全一致的七个 PartPose，只是 CubeList 为空
+        MeshDefinition mesh = new MeshDefinition();
         PartDefinition root = mesh.getRoot();
+        root.addOrReplaceChild("head", CubeListBuilder.create(), PartPose.ZERO);
+        root.addOrReplaceChild("hat", CubeListBuilder.create(), PartPose.ZERO);
+        root.addOrReplaceChild("body", CubeListBuilder.create(), PartPose.ZERO);
+        root.addOrReplaceChild("right_arm", CubeListBuilder.create(), PartPose.offset(-5.0F, 2.0F, 0.0F));
+        root.addOrReplaceChild("left_arm", CubeListBuilder.create(), PartPose.offset(5.0F, 2.0F, 0.0F));
+        root.addOrReplaceChild("right_leg", CubeListBuilder.create(), PartPose.offset(-1.9F, 12.0F, 0.0F));
+        root.addOrReplaceChild("left_leg", CubeListBuilder.create(), PartPose.offset(1.9F, 12.0F, 0.0F));
 
         // 按父级名称分组，逐层挂载：先建父子关系，再统一填充盒体
         Map<String, PartDefinition> created = new HashMap<>();
         // 父 -> 子列表，用于按依赖顺序创建
         Map<String, List<Cube>> byPart = new LinkedHashMap<>();
-        Map<String, String> parentOf = new HashMap<>();
         Map<String, PartPose> poseOf = new HashMap<>();
         for (Cube cube : this.cubes) {
             byPart.computeIfAbsent(cube.part(), k -> new ArrayList<>()).add(cube);
-            parentOf.putIfAbsent(cube.part(), cube.parent());
             poseOf.putIfAbsent(cube.part(), PartPose.offsetAndRotation(
                     cube.px(), cube.py(), cube.pz(), cube.rx(), cube.ry(), cube.rz()));
         }
@@ -130,7 +152,7 @@ public final class ArmorGeo {
                 if (!hidden.test(name)) {
                     continue;
                 }
-                ModelPart part = resolve(baked, name, parentOf);
+                ModelPart part = resolve(baked, name);
                 if (part != null) {
                     part.visible = false;
                 }
@@ -139,14 +161,20 @@ public final class ArmorGeo {
         return baked;
     }
 
-    /** 沿父级链解析出烘焙后的 {@link ModelPart}；找不到返回 {@code null}。 */
-    private static ModelPart resolve(ModelPart baked, String name, Map<String, String> parentOf) {
+    /**
+     * 沿父级链解析出烘焙后的 {@link ModelPart}；找不到返回 {@code null}。
+     *
+     * <p>公开给 {@code GeoArmorModel} 用 —— 衣摆/披风摆动动画需要按部件名逐帧改
+     * {@code xRot}，而 {@code ModelPart} 的 children 是私有的，只能沿 {@link #parentOf}
+     * 链 {@code getChild} 下去定位。</p>
+     */
+    public ModelPart resolve(ModelPart baked, String name) {
         List<String> path = new ArrayList<>();
         String current = name;
         int guard = 0;
         while (current != null && !TOP_LEVEL.contains(current) && guard++ < 64) {
             path.add(0, safeName(current));
-            current = parentOf.get(current);
+            current = this.parentOf.get(current);
         }
         if (current == null) {
             return null;

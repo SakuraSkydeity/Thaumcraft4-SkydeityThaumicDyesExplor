@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "thaumicdyesexplor:ME_WANDS",
+  "central": {
+    "item": "thaumcraft:silverwood_wand_rod"
+  },
+  "components": [
+    {
+      "item": "minecraft:brown_banner"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_wand_core_dunland"
+  },
+  "instability": 6,
+  "aspects": {
+    "thaumicdyesexplor:dunland": 24,
+    "praecantatio": 8
+  }
+}

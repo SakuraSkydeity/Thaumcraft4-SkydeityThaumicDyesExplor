@@ -2,12 +2,9 @@
   "type": "thaumcraft:infusion",
   "research": "thaumicdyesexplor:ROD_BREAD",
   "central": {
-    "item": "thaumcraft:greatwood_wand_rod"
+    "item": "minecraft:bread"
   },
   "components": [
-    {
-      "item": "minecraft:bread"
-    },
     {
       "item": "thaumcraft:salis_mundus"
     }

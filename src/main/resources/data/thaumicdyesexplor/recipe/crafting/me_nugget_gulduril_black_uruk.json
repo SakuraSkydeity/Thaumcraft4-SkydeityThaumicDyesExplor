@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thaumicdyesexplor:me_material_gulduril_black_uruk"
+    }
+  ],
+  "result": {
+    "id": "thaumicdyesexplor:me_nugget_gulduril_black_uruk",
+    "count": 9
+  }
+}

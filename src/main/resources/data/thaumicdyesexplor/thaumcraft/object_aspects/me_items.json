@@ -1,0 +1,320 @@
+{
+  "direct": {
+    "thaumicdyesexplor:me_wand_core_gondor": {
+      "thaumicdyesexplor:gondor": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_gondor": {
+      "thaumicdyesexplor:gondor": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_hobbit": {
+      "thaumicdyesexplor:perian": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_hobbit": {
+      "thaumicdyesexplor:perian": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_ranger_north": {
+      "thaumicdyesexplor:dunedain": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_ranger_north": {
+      "thaumicdyesexplor:dunedain": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_blue_mountains": {
+      "thaumicdyesexplor:eredluin": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_blue_mountains": {
+      "thaumicdyesexplor:eredluin": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_high_elf": {
+      "thaumicdyesexplor:lindon": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_high_elf": {
+      "thaumicdyesexplor:lindon": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_gundabad": {
+      "thaumicdyesexplor:gundabad": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_gundabad": {
+      "thaumicdyesexplor:gundabad": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_angmar": {
+      "thaumicdyesexplor:angmar": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_angmar": {
+      "thaumicdyesexplor:angmar": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_wood_elf": {
+      "thaumicdyesexplor:druardh": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_wood_elf": {
+      "thaumicdyesexplor:druardh": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_dol_guldur": {
+      "thaumicdyesexplor:dolguldur": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_dol_guldur": {
+      "thaumicdyesexplor:dolguldur": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_dale": {
+      "thaumicdyesexplor:dale": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_dale": {
+      "thaumicdyesexplor:dale": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_dwarf": {
+      "thaumicdyesexplor:nauglin": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_dwarf": {
+      "thaumicdyesexplor:nauglin": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_galadhrim": {
+      "thaumicdyesexplor:lothlorien": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_galadhrim": {
+      "thaumicdyesexplor:lothlorien": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_dunland": {
+      "thaumicdyesexplor:dunland": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_dunland": {
+      "thaumicdyesexplor:dunland": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_uruk_hai": {
+      "thaumicdyesexplor:isengard": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_uruk_hai": {
+      "thaumicdyesexplor:isengard": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_fangorn": {
+      "thaumicdyesexplor:fangorn": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_fangorn": {
+      "thaumicdyesexplor:fangorn": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_rohan": {
+      "thaumicdyesexplor:rohan": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_rohan": {
+      "thaumicdyesexplor:rohan": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_mordor": {
+      "thaumicdyesexplor:mordor": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_mordor": {
+      "thaumicdyesexplor:mordor": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_dorwinion": {
+      "thaumicdyesexplor:dorwinion": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_dorwinion": {
+      "thaumicdyesexplor:dorwinion": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_rhun": {
+      "thaumicdyesexplor:rhudel": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_rhun": {
+      "thaumicdyesexplor:rhudel": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_near_harad": {
+      "thaumicdyesexplor:harad": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_near_harad": {
+      "thaumicdyesexplor:harad": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_moredain": {
+      "thaumicdyesexplor:morwaith": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_moredain": {
+      "thaumicdyesexplor:morwaith": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_tauredain": {
+      "thaumicdyesexplor:taurethrim": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_tauredain": {
+      "thaumicdyesexplor:taurethrim": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_core_half_troll": {
+      "thaumicdyesexplor:pertorog": 4,
+      "thaumcraft:arbor": 4
+    },
+    "thaumicdyesexplor:me_staff_core_half_troll": {
+      "thaumicdyesexplor:pertorog": 8,
+      "thaumcraft:arbor": 8
+    },
+    "thaumicdyesexplor:me_wand_cap_mithril": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_orcsteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_dwarvensteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_galvorn": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_uruksteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_morgulsteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_bluedwarvensteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_blackuruksteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_elvensteel": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_wand_cap_gildediron": {
+      "thaumcraft:metallum": 4,
+      "thaumcraft:tutamen": 2
+    },
+    "thaumicdyesexplor:me_material_gulduril_black_uruk": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_gulduril_black_uruk": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_ithildin_blue_dwarven": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_ithildin_blue_dwarven": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_ithildin_dwarven": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_ithildin_dwarven": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_edhelmir_elven": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_edhelmir_elven": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_daedelos_galvorn": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_daedelos_galvorn": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_stared_mithril": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_stared_mithril": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_daedelos_morgul": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_daedelos_morgul": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_durnaur_orc": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_durnaur_orc": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_gulduril_uruk": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_gulduril_uruk": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_material_brighten_gildediron": {
+      "thaumcraft:metallum": 4
+    },
+    "thaumicdyesexplor:me_nugget_brighten_gildediron": {
+      "thaumcraft:metallum": 1
+    },
+    "thaumicdyesexplor:me_jar_binder": {
+      "thaumcraft:vitium": 2,
+      "thaumcraft:vitreus": 2
+    },
+    "thaumicdyesexplor:me_jar_binder_advanced": {
+      "thaumcraft:vitium": 4,
+      "thaumcraft:vitreus": 4,
+      "thaumcraft:praecantatio": 2
+    },
+    "thaumicdyesexplor:me_extreme_jar_cap": {
+      "thaumcraft:vitreus": 4,
+      "thaumcraft:vitium": 2,
+      "thaumcraft:ordo": 2
+    },
+    "thaumicdyesexplor:me_focus_bedrock_remover": {
+      "thaumcraft:perfodio": 8,
+      "thaumcraft:terra": 4,
+      "thaumcraft:potentia": 4
+    },
+    "thaumicdyesexplor:me_ring_warpward": {
+      "thaumcraft:vinculum": 4,
+      "thaumcraft:vitium": 2,
+      "thaumcraft:praecantatio": 2
+    },
+    "thaumicdyesexplor:me_handheld_crafter": {
+      "thaumcraft:fabrico": 6,
+      "thaumcraft:instrumentum": 4,
+      "thaumcraft:humanus": 2
+    },
+    "thaumicdyesexplor:me_icon": {
+      "thaumcraft:praecantatio": 2
+    }
+  }
+}

@@ -34,13 +34,16 @@ public final class SealColors {
     /** 造一个带颜色的封印。 */
     public static ItemStack stack(Item item, int variant) {
         ItemStack stack = new ItemStack(item);
-        stack.set(DataComponents.DYED_COLOR, new DyedItemColor(colorOf(variant) & 0xFFFFFF, false));
+        // getTextureDiffuseColor 本来就是 0xFFRRGGBB；别把 alpha 抹掉 ——
+        // DYED_COLOR 存成 RGB（alpha=0）后，ItemColor 一乘就是全透明图标
+        stack.set(DataComponents.DYED_COLOR, new DyedItemColor(colorOf(variant), false));
         return stack;
     }
 
     /** 取封印当前颜色（ARGB），未染色时给默认色。 */
     public static int tint(ItemStack stack) {
-        return DyedItemColor.getOrDefault(stack, DEFAULT_COLOR);
+        // 旧存档里的 DYED_COLOR 存过无 alpha 的 RGB，这里统一把 alpha 提到不透明
+        return 0xFF000000 | DyedItemColor.getOrDefault(stack, DEFAULT_COLOR);
     }
 
     private SealColors() {

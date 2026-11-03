@@ -1,18 +1,30 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_plate_leggings"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    },
-    {
-      "item": "minecraft:leather"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "terra": 10,
+    "perditio": 10,
+    "ordo": 20
+  },
+  "pattern": [
+    "sLs",
+    "bBb"
   ],
+  "key": {
+    "s": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "thaumcraft:cultist_robe_leggings"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_ranger_leggings",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_ranger_leggings"
   }
 }

@@ -1,15 +1,27 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:golden_chestplate"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "ignis": 20,
+    "aer": 20
+  },
+  "pattern": [
+    " r ",
+    "rCr",
+    " y "
   ],
+  "key": {
+    "r": {
+      "item": "minecraft:red_dye"
+    },
+    "y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "C": {
+      "item": "thaumicdyesexplor:cultist_knight_chestplate"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:sun_knight_chestplate",
-    "count": 1
+    "id": "thaumicdyesexplor:sun_knight_chestplate"
   }
 }

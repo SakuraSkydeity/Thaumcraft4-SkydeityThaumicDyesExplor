@@ -1,0 +1,30 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:RELI_ODDITIES",
+  "pattern": [
+    "TAT",
+    "BCB",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "thaumcraft:thaumium_ingot"
+    },
+    "A": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "id": "thaumicdyesexplor:reli_chaos_core"
+  },
+  "vis": {
+    "perditio": 40,
+    "ignis": 20
+  }
+}

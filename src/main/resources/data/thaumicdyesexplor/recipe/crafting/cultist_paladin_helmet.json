@@ -1,18 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "thaumcraft:cultist_plate_helmet"
-    },
-    {
-      "item": "thaumicdyesexplor:fabric_resource"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    }
+  "type": "thaumcraft:arcane_shaped",
+  "research": "thaumicdyesexplor:ARMORSETS",
+  "vis": {
+    "ignis": 20,
+    "perditio": 10,
+    "ordo": 25
+  },
+  "pattern": [
+    " g ",
+    "GHG",
+    " g "
   ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "H": {
+      "item": "thaumicdyesexplor:cultist_leader_helmet"
+    }
+  },
   "result": {
-    "id": "thaumicdyesexplor:cultist_paladin_helmet",
-    "count": 1
+    "id": "thaumicdyesexplor:cultist_paladin_helmet"
   }
 }

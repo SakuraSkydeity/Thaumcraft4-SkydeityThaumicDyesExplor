@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:dorwinion",
+  "color": "#751d63",
+  "components": [
+    "thaumicdyesexplor:abonnen",
+    "thaumicdyesexplor:edhel"
+  ],
+  "natural_generation_weight": 1
+}

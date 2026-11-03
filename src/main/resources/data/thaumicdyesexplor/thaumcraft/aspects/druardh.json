@@ -1,0 +1,9 @@
+{
+  "id": "thaumicdyesexplor:druardh",
+  "color": "#1ca52c",
+  "components": [
+    "thaumicdyesexplor:edhel",
+    "thaumcraft:arbor"
+  ],
+  "natural_generation_weight": 1
+}
